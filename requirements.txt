@@ -1,0 +1,9 @@
+mypy
+requests
+types-requests
+pandas
+pandas-stubs
+openpyxl
+faker
+pytest
+schedule

@@ -1,0 +1,1001 @@
+hostname,ip,mac,operating_system,ram_gb,cpu_cores,department,environment,owner
+srv-management-0001,10.187.48.240,40:13:13:c8:e2:97,Windows Server 2022,4,4,Management,production,Dominga Díaz Cruz
+srv-operations-0002,10.143.47.71,ac:68:c8:77:96:63,Windows Server 2022,32,4,Operations,development,Marisa Mateos-Camps
+srv-hr-0003,10.116.49.66,6e:3b:a2:f0:7a:07,Ubuntu Server 24.04,8,4,HR,staging,Juan Pablo Zapata Pozo
+srv-it-0004,10.154.137.120,be:28:6e:6f:f7:a7,Ubuntu Server 22.04,8,2,IT,development,Godofredo Burgos Villar
+srv-management-0005,10.145.196.207,e8:47:f5:f2:a4:67,Windows Server 2016,64,2,Management,testing,María Pareja Perelló
+srv-management-0006,10.163.19.174,08:14:81:c1:5e:b4,Debian 12,4,8,Management,development,Aurora del Caparrós
+srv-it-0007,10.247.136.114,d6:0e:af:5f:a4:37,Rocky Linux 9,64,2,IT,development,Francisco Jose Carvajal-Segarra
+srv-operations-0008,10.190.135.187,c8:3c:27:63:f2:fa,Ubuntu Server 22.04,16,8,Operations,development,Marcial Garzón Cervantes
+srv-management-0009,10.148.56.253,f0:8b:93:65:43:23,Rocky Linux 9,32,2,Management,staging,Celia Moreno Alba
+srv-management-0010,10.184.251.148,ec:a9:a3:f7:4f:04,Ubuntu Server 24.04,8,4,Management,staging,Paulina Atienza-Bonilla
+srv-finance-0011,10.65.3.43,44:15:63:bf:fe:c9,Windows Server 2016,32,2,Finance,testing,Rafael Viana Zabala
+srv-operations-0012,10.183.88.147,5e:3b:95:61:32:a7,Rocky Linux 9,32,2,Operations,testing,Pánfilo Ibarra Armas
+srv-management-0013,10.82.104.238,82:2d:73:10:8f:84,Ubuntu Server 22.04,8,16,Management,testing,Irma Carmona Frías
+srv-management-0014,10.29.82.220,7c:44:67:0e:9a:eb,Ubuntu Server 22.04,4,8,Management,staging,Urbano Cid Sevillano
+srv-it-0015,10.46.222.1,c8:5e:72:6f:1f:72,Windows Server 2016,64,8,IT,staging,Cruz Berenguer Trillo
+srv-it-0016,10.231.144.53,60:4d:bc:ac:4d:3b,Windows Server 2019,16,2,IT,testing,Elena Miralles Barreda
+srv-management-0017,10.254.84.251,24:fd:39:14:66:60,Ubuntu Server 22.04,2,2,Management,production,Jeremías Fuertes
+srv-management-0018,10.43.211.250,6c:96:01:ac:c0:b6,Ubuntu Server 22.04,4,4,Management,production,Felisa Vizcaíno
+srv-hr-0019,10.161.69.191,e8:6a:46:83:f9:c7,Windows Server 2016,4,8,HR,production,Artemio Figueroa Escribano
+srv-security-0020,10.35.16.7,72:66:da:47:d5:a7,Windows Server 2022,32,8,Security,development,Jonatan Morcillo Anguita
+srv-operations-0021,10.38.114.54,28:08:de:dd:e2:8d,Debian 12,64,8,Operations,production,Marc de Arroyo
+srv-management-0022,10.207.10.166,1c:4f:9f:79:bd:c0,Debian 12,2,8,Management,testing,Aarón Bru Huguet
+srv-hr-0023,10.86.206.215,46:e0:f9:eb:dd:ca,Windows Server 2022,2,8,HR,testing,Pastor Rivera Royo
+srv-security-0024,10.31.254.238,44:29:22:db:f4:a7,Rocky Linux 9,8,16,Security,testing,Silvestre Nogueira Valls
+srv-finance-0025,10.172.67.101,2e:55:fd:34:a0:22,Windows Server 2022,16,16,Finance,testing,Leopoldo Serna
+srv-security-0026,10.194.126.108,24:14:1e:ee:14:7f,Windows Server 2016,8,16,Security,development,Odalis Morillo Bermúdez
+srv-it-0027,10.76.9.129,8e:8d:4b:93:86:cf,Rocky Linux 9,8,4,IT,development,Azahara Acevedo-Mariscal
+srv-hr-0028,10.93.191.113,3e:5b:93:a6:ad:55,Windows Server 2012,4,2,HR,staging,Diana Bertrán Soria
+srv-security-0029,10.203.48.151,5a:d0:e5:b4:a4:46,Ubuntu Server 22.04,8,8,Security,development,Fito Tejedor Montenegro
+srv-hr-0030,10.113.79.48,20:91:39:04:1b:ee,Ubuntu Server 22.04,2,16,HR,testing,Ismael del Ramírez
+srv-management-0031,10.13.41.165,b6:99:b1:83:50:b6,Windows Server 2019,4,8,Management,staging,Íñigo de Narváez
+srv-it-0032,10.224.158.42,8a:19:cf:a5:b3:77,Windows Server 2012,8,16,IT,development,Maricruz Exposito Reguera
+srv-management-0033,10.165.56.34,2c:51:df:92:70:2a,Ubuntu Server 22.04,64,2,Management,testing,Oriana Alarcón Carrera
+srv-management-0034,10.48.208.93,80:c8:41:5e:20:8d,Ubuntu Server 22.04,8,16,Management,development,Rosario Montesinos Tomás
+srv-management-0035,10.98.122.213,a8:3b:d5:78:99:ec,Windows Server 2016,2,8,Management,testing,Arsenio Segismundo Cantón Gallardo
+srv-management-0036,10.143.70.90,04:e1:f1:7f:f1:f6,Rocky Linux 9,4,16,Management,production,Máximo Tello Benavente
+srv-development-0037,10.193.14.190,6c:59:24:68:f7:f8,Debian 12,4,16,Development,development,Verónica Rocamora Barco
+srv-operations-0038,10.8.115.156,e4:e5:5f:6b:1a:89,Debian 12,2,16,Operations,development,Dolores Clara Plaza Luna
+srv-operations-0039,10.198.95.24,da:66:eb:12:3f:76,Ubuntu Server 24.04,64,8,Operations,testing,Máxima Ariño Baños
+srv-hr-0040,10.194.56.174,9c:79:81:23:9b:c0,Windows Server 2022,8,16,HR,production,Adalberto Angulo Villa
+srv-security-0041,10.47.120.91,bc:2e:79:b0:6a:be,Rocky Linux 9,2,16,Security,development,Nidia Barreda Mateu
+srv-hr-0042,10.60.242.94,10:53:5e:7c:30:8c,Windows Server 2012,4,4,HR,staging,Ana Belén Palacio Jordá
+srv-management-0043,10.192.250.241,a8:9c:49:85:cc:7d,Rocky Linux 9,16,4,Management,production,Roberto Solé Bautista
+srv-hr-0044,10.152.253.30,ae:05:40:e2:9d:01,Ubuntu Server 24.04,8,8,HR,testing,Rosalinda Céspedes Barral
+srv-finance-0045,10.121.225.143,66:a3:a8:34:42:a7,Ubuntu Server 22.04,64,16,Finance,production,Raimundo Valentín Giner Verdejo
+srv-finance-0046,10.15.41.186,1c:a3:a0:79:81:f3,Rocky Linux 9,2,2,Finance,development,Amaro Enríquez Molins
+srv-security-0047,10.219.173.2,68:1f:f2:f4:e8:76,Windows Server 2016,8,2,Security,development,Luís Perez Salom
+srv-security-0048,10.32.81.106,98:3f:2a:bb:e9:68,Rocky Linux 9,64,8,Security,development,Dimas Múñiz Girón
+srv-management-0049,10.72.208.143,76:f6:1b:64:7a:33,Ubuntu Server 22.04,64,8,Management,testing,Osvaldo del Barrena
+srv-hr-0050,10.124.92.76,4e:50:37:33:58:79,Windows Server 2016,8,16,HR,testing,Maxi de Peláez
+srv-development-0051,10.185.196.192,42:50:71:b5:aa:cd,Debian 12,4,2,Development,testing,Macario Gabaldón Cabañas
+srv-operations-0052,10.129.33.141,ae:77:e0:85:a4:81,Debian 12,64,2,Operations,production,Haydée Gutiérrez Barba
+srv-finance-0053,10.118.11.46,ee:76:d3:81:51:2f,Windows Server 2022,8,8,Finance,development,Julio César Salgado
+srv-development-0054,10.253.40.118,8c:39:5a:88:15:af,Ubuntu Server 24.04,4,2,Development,staging,Irene Sobrino Gabaldón
+srv-operations-0055,10.72.142.69,22:fa:b0:31:26:1f,Windows Server 2019,32,4,Operations,testing,Arturo de Arranz
+srv-it-0056,10.128.188.191,38:1e:fe:14:7e:b5,Ubuntu Server 24.04,8,16,IT,staging,Luisa Rojas Maldonado
+srv-management-0057,10.6.192.92,42:b5:bc:59:aa:e6,Windows Server 2019,2,8,Management,development,Nando Pino Duran
+srv-finance-0058,10.3.219.16,3a:f3:8b:65:1c:42,Windows Server 2012,8,8,Finance,staging,Roberta de Espejo
+srv-operations-0059,10.3.89.213,c8:e2:1f:a3:75:f7,Debian 12,16,8,Operations,staging,Ainara Calvet Carrasco
+srv-security-0060,10.139.234.133,4e:9e:38:ae:80:d0,Windows Server 2012,16,2,Security,testing,Basilio Hidalgo Agudo
+srv-development-0061,10.146.216.101,84:ce:b6:18:10:13,Windows Server 2019,2,2,Development,testing,Che Orozco Puerta
+srv-it-0062,10.237.18.98,66:a3:1d:2a:c8:08,Ubuntu Server 22.04,2,8,IT,staging,Rogelio Vaquero Vigil
+srv-finance-0063,10.183.150.57,2a:c4:e7:bd:27:cc,Windows Server 2019,64,16,Finance,development,Andrés Felipe Clemente Benítez
+srv-security-0064,10.32.60.92,d6:dd:31:1b:c6:1a,Windows Server 2016,2,4,Security,testing,Maite Maestre Piñeiro
+srv-management-0065,10.45.114.122,b4:d1:f9:df:9d:67,Ubuntu Server 24.04,2,4,Management,production,Débora Moles Olivera
+srv-finance-0066,10.104.60.222,88:7f:5d:b1:62:24,Windows Server 2016,64,16,Finance,staging,Jose Salvà-Calvo
+srv-hr-0067,10.54.120.202,fa:68:d0:41:5c:81,Windows Server 2016,8,2,HR,production,Adalberto de Asensio
+srv-it-0068,10.142.175.179,c0:7c:e0:9f:78:a9,Windows Server 2019,2,4,IT,testing,Socorro Susana Casas Valdés
+srv-management-0069,10.192.158.128,e0:32:32:d7:d2:51,Windows Server 2019,8,8,Management,staging,Juanita Jódar Pozo
+srv-finance-0070,10.197.193.38,d4:21:f2:f9:35:d3,Rocky Linux 9,32,2,Finance,production,Leocadia Alfonso Bayona
+srv-hr-0071,10.220.109.97,5a:9c:5c:92:30:62,Rocky Linux 9,16,2,HR,testing,Ani Oliver Valbuena
+srv-hr-0072,10.226.167.245,7a:b8:c2:95:c4:38,Windows Server 2016,2,8,HR,staging,Macario Ismael Iglesia Guerrero
+srv-finance-0073,10.192.124.120,e2:d5:9f:a5:a7:d7,Windows Server 2022,8,4,Finance,testing,Isabela Porras Asensio
+srv-development-0074,10.98.66.218,ea:d5:d4:12:d0:17,Ubuntu Server 22.04,32,4,Development,development,Régulo Navarrete Casado
+srv-development-0075,10.215.51.134,f0:04:a2:1c:1f:a7,Windows Server 2016,2,16,Development,testing,Jose Ramón Llano Quiroga
+srv-hr-0076,10.168.179.171,1e:c4:f7:e6:4b:c7,Ubuntu Server 24.04,8,16,HR,development,Consuelo Puga-Barrena
+srv-management-0077,10.236.105.219,70:c5:66:1b:dc:fe,Windows Server 2019,4,8,Management,production,Danilo de Ribera
+srv-management-0078,10.213.101.215,bc:d6:87:7a:5f:8d,Windows Server 2022,8,2,Management,staging,Timoteo Sanchez Tolosa
+srv-operations-0079,10.213.82.190,f4:cf:0d:6f:27:4d,Windows Server 2012,2,16,Operations,staging,Paola Nogués Armas
+srv-management-0080,10.93.68.190,ae:e0:dd:71:1d:26,Windows Server 2019,2,4,Management,staging,Felicidad del Montesinos
+srv-finance-0081,10.164.205.237,d0:2c:d8:66:e3:bf,Debian 12,16,2,Finance,staging,Julio del Solera
+srv-operations-0082,10.70.250.182,e6:42:36:69:49:58,Windows Server 2022,4,16,Operations,development,María Ángeles Álvaro Gisbert
+srv-management-0083,10.138.33.32,5a:89:c1:e2:5e:aa,Ubuntu Server 22.04,64,8,Management,testing,José Padilla Feijoo
+srv-management-0084,10.117.36.35,2e:75:41:01:8d:3e,Windows Server 2022,64,4,Management,staging,Ruperto Ferrández Gisbert
+srv-operations-0085,10.240.13.237,80:12:80:a1:3a:39,Rocky Linux 9,8,8,Operations,production,Renato Gabino Espejo Alberto
+srv-operations-0086,10.35.82.114,82:68:de:07:8b:65,Ubuntu Server 22.04,8,2,Operations,testing,Fernanda Rebollo Moliner
+srv-it-0087,10.138.230.137,32:ad:c2:8b:db:de,Windows Server 2012,4,8,IT,staging,Dolores Nélida Tudela Segura
+srv-finance-0088,10.82.0.78,a2:36:84:28:c1:33,Windows Server 2022,32,2,Finance,development,Mayte Caparrós Soriano
+srv-finance-0089,10.123.131.21,c0:6a:b8:5d:19:88,Ubuntu Server 22.04,64,8,Finance,development,Gastón Casal Chacón
+srv-it-0090,10.2.112.240,16:b7:86:fd:50:bc,Windows Server 2019,4,2,IT,development,Galo Godoy Ramis
+srv-finance-0091,10.221.113.147,d8:90:bb:2f:17:51,Ubuntu Server 24.04,64,16,Finance,production,Soraya Gimeno Santamaria
+srv-it-0092,10.106.98.66,a4:ac:f5:7a:3a:ed,Debian 12,4,8,IT,testing,Zaida Pedrero-Reguera
+srv-development-0093,10.26.221.164,ba:01:e6:2d:e0:8c,Windows Server 2019,4,4,Development,staging,Eulalia Miranda Tello
+srv-security-0094,10.124.239.26,6a:50:66:5f:f4:1a,Windows Server 2016,4,8,Security,staging,Rocío Valentín Caro
+srv-operations-0095,10.172.28.206,56:89:4b:c2:93:ed,Rocky Linux 9,64,16,Operations,development,Gisela de Pera
+srv-it-0096,10.217.130.206,12:5a:ec:e7:fc:ca,Windows Server 2016,16,4,IT,staging,Buenaventura Jurado Escamilla
+srv-it-0097,10.231.66.11,7e:68:c6:28:48:24,Windows Server 2016,2,8,IT,development,María Carmen Bernat Santos
+srv-operations-0098,10.87.223.114,12:7f:95:42:84:ff,Windows Server 2022,2,2,Operations,development,Aurora Gimeno Cabañas
+srv-finance-0099,10.168.1.17,36:ec:33:2e:c8:4a,Windows Server 2016,8,8,Finance,production,Nidia Maldonado
+srv-finance-0100,10.49.154.191,a2:e3:af:17:fd:c5,Windows Server 2016,4,8,Finance,staging,Purificación Segura Ariño
+srv-operations-0101,10.189.87.41,c2:30:64:80:95:1e,Ubuntu Server 22.04,4,16,Operations,development,Camilo Nadal Ramón
+srv-hr-0102,10.174.165.42,c8:04:dc:4c:72:50,Ubuntu Server 24.04,4,16,HR,staging,Óscar Gallart Calleja
+srv-development-0103,10.70.49.166,b8:8c:c7:c2:d8:b4,Windows Server 2019,8,2,Development,production,Carolina Martí
+srv-development-0104,10.102.32.145,06:db:ac:d9:82:55,Debian 12,64,4,Development,staging,Teófilo Gerónimo Nieto Aguilera
+srv-security-0105,10.239.162.38,60:32:0c:51:a7:e2,Ubuntu Server 24.04,32,4,Security,testing,Trini Conesa
+srv-management-0106,10.186.8.83,3a:f6:10:fd:e3:b3,Ubuntu Server 22.04,8,4,Management,development,Petrona Domínguez Higueras
+srv-management-0107,10.87.224.217,3c:5d:f7:c7:9e:7e,Windows Server 2012,64,16,Management,production,Rosa Cobo Rosales
+srv-finance-0108,10.111.32.50,90:ad:ed:4a:c5:42,Rocky Linux 9,16,4,Finance,testing,Iker Noriega-Andrade
+srv-management-0109,10.39.235.151,36:5a:4f:d7:58:2a,Windows Server 2016,4,2,Management,production,Wálter Delgado-García
+srv-security-0110,10.103.222.141,f8:4e:15:d3:4a:8f,Windows Server 2019,32,2,Security,staging,Mirta Carranza Tejero
+srv-operations-0111,10.53.149.5,70:93:58:77:b6:eb,Rocky Linux 9,16,4,Operations,production,Iris Arnaiz Borrás
+srv-it-0112,10.227.195.53,10:d8:0c:92:52:f7,Ubuntu Server 24.04,64,4,IT,development,Román Iglesia Gisbert
+srv-finance-0113,10.233.4.130,f4:f4:87:82:14:1b,Rocky Linux 9,16,4,Finance,production,Febe Asensio Niño
+srv-finance-0114,10.43.62.246,e0:e0:6b:67:ba:18,Windows Server 2019,2,4,Finance,testing,Teófilo de Barral
+srv-security-0115,10.155.89.61,12:82:29:84:a0:0b,Windows Server 2016,2,4,Security,development,Beatriz de Cuesta
+srv-security-0116,10.122.100.5,62:da:72:9b:d2:09,Windows Server 2019,32,16,Security,development,Emma Domitila Manuel Bonet
+srv-operations-0117,10.66.213.247,b4:f8:33:2a:88:51,Ubuntu Server 22.04,64,4,Operations,development,Diego Demetrio Flores Ferrer
+srv-operations-0118,10.122.82.37,60:6e:c4:2c:0c:e7,Rocky Linux 9,4,16,Operations,production,Iris Marín Torrents
+srv-finance-0119,10.64.182.100,b4:8d:35:db:01:11,Windows Server 2019,2,2,Finance,testing,Jose Angel Mendoza Novoa
+srv-hr-0120,10.248.59.83,5c:12:2e:45:2b:96,Rocky Linux 9,32,2,HR,testing,Samuel Benítez Fernandez
+srv-development-0121,10.154.41.45,c0:05:0e:15:99:82,Rocky Linux 9,32,2,Development,staging,Benigno Capdevila Monreal
+srv-operations-0122,10.13.249.172,4e:65:74:93:bc:db,Windows Server 2012,32,2,Operations,development,Calixta Guardiola
+srv-operations-0123,10.244.149.241,40:20:39:32:6e:35,Windows Server 2012,8,8,Operations,staging,Ángel Jódar Busquets
+srv-security-0124,10.38.200.139,30:27:2e:6b:98:bc,Rocky Linux 9,32,2,Security,development,Enrique Costa Pizarro
+srv-security-0125,10.250.19.234,56:81:14:6f:ef:47,Windows Server 2019,8,8,Security,production,Coral Echeverría Posada
+srv-hr-0126,10.59.244.117,4c:7f:db:cc:82:d7,Debian 12,2,4,HR,testing,Nicanor de Aliaga
+srv-development-0127,10.73.154.214,6a:a8:56:b1:85:c6,Debian 12,2,2,Development,development,Maxi Aguiló Ramos
+srv-it-0128,10.8.174.187,d8:f3:f8:d4:50:7b,Ubuntu Server 24.04,16,8,IT,testing,Ildefonso Iñiguez Morante
+srv-operations-0129,10.189.94.128,3c:4c:4f:ed:2e:8a,Windows Server 2019,32,8,Operations,testing,Pastor de Benavides
+srv-management-0130,10.20.129.214,6e:c6:d1:ba:b0:62,Windows Server 2016,32,4,Management,staging,Norberto Verdú Muñoz
+srv-finance-0131,10.171.198.32,0a:1f:85:e9:b6:25,Rocky Linux 9,32,16,Finance,production,Jose Francisco Mercader Quintero
+srv-hr-0132,10.230.254.239,36:50:72:23:91:b3,Windows Server 2019,2,4,HR,development,Vicenta Palomo
+srv-it-0133,10.84.57.160,e0:7a:0e:b2:77:ae,Debian 12,2,4,IT,production,Francisco Cañizares Gámez
+srv-hr-0134,10.59.241.234,72:3b:fb:14:2e:d8,Windows Server 2022,4,8,HR,development,Elvira Vigil
+srv-finance-0135,10.117.94.185,2a:dd:63:55:e3:8f,Windows Server 2022,16,2,Finance,development,Ester Hernandez Ramón
+srv-finance-0136,10.41.94.174,a4:3d:40:90:c2:ee,Ubuntu Server 22.04,4,4,Finance,production,Eva Nilda Fuente Reina
+srv-development-0137,10.113.92.249,12:2b:b1:61:30:ba,Windows Server 2022,2,2,Development,testing,Sebastian Aguado Peñas
+srv-hr-0138,10.17.245.188,e8:0d:83:f3:d5:d3,Ubuntu Server 24.04,32,8,HR,development,Roque Tomás
+srv-development-0139,10.150.215.66,24:dd:2e:94:a5:37,Ubuntu Server 24.04,16,4,Development,staging,Leopoldo Gimenez España
+srv-operations-0140,10.155.178.73,36:48:cb:3e:d7:6c,Debian 12,2,4,Operations,staging,Fortunato Boada-Arnaiz
+srv-management-0141,10.154.119.237,78:df:6a:59:c7:f4,Windows Server 2022,32,2,Management,development,Chus Andrea Rivero Prada
+srv-hr-0142,10.18.204.44,78:b6:91:8d:f2:ff,Windows Server 2022,2,16,HR,development,Adalberto Mesa
+srv-it-0143,10.94.199.2,06:d7:4b:ac:ea:27,Debian 12,64,4,IT,development,Reyna Belmonte Urrutia
+srv-finance-0144,10.19.250.219,50:63:1e:85:51:30,Ubuntu Server 24.04,16,16,Finance,development,Anselmo Peiró Jerez
+srv-development-0145,10.132.234.108,16:a9:70:78:fb:8f,Ubuntu Server 24.04,32,16,Development,testing,Marta Salvador-Raya
+srv-finance-0146,10.78.152.39,68:5e:57:7a:18:fb,Ubuntu Server 22.04,2,8,Finance,staging,Raúl Peiró Mas
+srv-finance-0147,10.47.38.61,dc:7a:ad:a6:45:e9,Debian 12,2,16,Finance,development,Eutimio Avilés Maestre
+srv-security-0148,10.33.109.185,00:95:3c:5c:40:4c,Windows Server 2016,4,4,Security,staging,Teo Manjón-Bosch
+srv-management-0149,10.238.231.73,2c:cd:40:f1:47:d2,Rocky Linux 9,8,2,Management,development,Buenaventura Llano Perales
+srv-development-0150,10.178.210.140,ea:0a:a7:50:85:9a,Debian 12,64,2,Development,development,Bautista Vilalta
+srv-security-0151,10.221.218.190,82:75:2a:58:9d:41,Debian 12,2,8,Security,testing,Ildefonso Jove Llano
+srv-hr-0152,10.119.180.105,8a:30:a6:34:99:c2,Windows Server 2016,8,16,HR,testing,Dorotea Miró Martorell
+srv-development-0153,10.129.72.94,82:10:65:c8:e2:ad,Windows Server 2022,64,4,Development,testing,Melchor Rey Pi
+srv-it-0154,10.144.2.111,6a:f1:53:8a:e9:e7,Debian 12,4,16,IT,production,Omar Ledesma Valero
+srv-security-0155,10.24.235.192,a4:4a:73:00:da:ca,Windows Server 2022,32,8,Security,testing,Priscila Ojeda Casas
+srv-operations-0156,10.138.236.147,9a:e4:08:76:07:ca,Windows Server 2012,32,4,Operations,development,Rogelio Navas Rojas
+srv-management-0157,10.8.187.85,1a:36:5d:76:80:90,Rocky Linux 9,8,4,Management,staging,Mario Vicens Carranza
+srv-development-0158,10.135.221.98,fc:ee:5d:31:08:1d,Windows Server 2012,2,2,Development,staging,Obdulia Galiano-Castilla
+srv-operations-0159,10.151.217.254,00:ef:41:95:22:4d,Windows Server 2012,4,4,Operations,testing,Rosendo Colomer Cobo
+srv-management-0160,10.75.169.83,18:4e:60:bf:9e:2f,Rocky Linux 9,16,4,Management,staging,Juan Antonio Flavio Giménez Salom
+srv-hr-0161,10.56.226.115,6c:11:5d:ad:99:0a,Rocky Linux 9,64,4,HR,production,Quique Salazar Rueda
+srv-security-0162,10.231.121.5,3a:23:c5:cf:9e:d0,Windows Server 2012,64,8,Security,testing,Alcides Pizarro Cid
+srv-management-0163,10.230.208.235,f6:9d:9f:fe:f0:7c,Windows Server 2019,64,8,Management,testing,Eloísa de Pi
+srv-operations-0164,10.238.207.253,a6:e6:c3:17:ac:64,Debian 12,16,8,Operations,production,René Plana León
+srv-development-0165,10.246.203.30,48:5f:48:ac:7c:c4,Ubuntu Server 22.04,32,8,Development,testing,Aitana Cabanillas Rivera
+srv-operations-0166,10.206.16.208,7a:e0:3a:c7:56:c1,Ubuntu Server 22.04,4,16,Operations,testing,Eutimio Rivero Gordillo
+srv-it-0167,10.57.184.14,ce:91:08:f4:67:f8,Ubuntu Server 22.04,16,8,IT,development,Bibiana Valencia Duque
+srv-security-0168,10.147.85.127,9e:42:6a:f4:17:17,Ubuntu Server 22.04,8,4,Security,development,Yago Sáenz
+srv-development-0169,10.82.21.60,9c:05:33:41:a0:50,Ubuntu Server 24.04,64,4,Development,staging,Ruy del Macías
+srv-operations-0170,10.66.60.14,fc:f7:64:d2:5e:dd,Ubuntu Server 22.04,16,16,Operations,development,Eloísa Solera
+srv-management-0171,10.121.168.231,74:6c:59:bc:16:2d,Ubuntu Server 22.04,4,4,Management,development,Severiano Cárdenas Alberdi
+srv-operations-0172,10.184.241.120,ee:c5:1e:4b:7a:ed,Rocky Linux 9,8,16,Operations,testing,Virginia Bernarda Macías Sastre
+srv-it-0173,10.34.210.144,c0:9a:4b:a2:66:2e,Debian 12,64,4,IT,development,Anselmo Salomón Bas Castellanos
+srv-it-0174,10.170.5.122,28:76:af:01:15:0d,Windows Server 2012,64,4,IT,production,Graciana Luque Catalán
+srv-finance-0175,10.178.248.98,04:08:12:e1:37:e1,Ubuntu Server 24.04,64,2,Finance,testing,Nélida Ayuso Bautista
+srv-operations-0176,10.37.253.7,22:33:29:37:7b:82,Windows Server 2016,2,4,Operations,testing,Armida Izquierdo Morante
+srv-it-0177,10.66.190.204,50:84:4e:da:04:dd,Rocky Linux 9,64,4,IT,testing,Buenaventura Maestre-Juan
+srv-management-0178,10.166.241.18,6e:2f:4b:f2:57:28,Ubuntu Server 24.04,8,2,Management,testing,Raimundo Feliciano Montserrat Saura
+srv-finance-0179,10.82.149.167,4c:3e:f5:7b:92:2c,Windows Server 2022,4,2,Finance,testing,Hortensia Lara Bravo
+srv-finance-0180,10.74.125.140,c2:99:74:b7:b7:24,Windows Server 2022,32,8,Finance,development,Loreto García Zapata
+srv-security-0181,10.193.19.207,90:a1:c4:aa:af:23,Windows Server 2019,2,8,Security,development,Eric Barceló Ojeda
+srv-management-0182,10.133.112.68,de:01:6a:3f:59:e1,Windows Server 2019,16,2,Management,testing,Jordana Tirado Salinas
+srv-development-0183,10.243.197.226,36:b6:72:87:7d:34,Windows Server 2016,4,16,Development,production,Marcia Seco Guillén
+srv-finance-0184,10.9.168.231,24:c3:9d:b6:fb:c8,Rocky Linux 9,8,16,Finance,staging,Ramona Sanchez Rivas
+srv-security-0185,10.217.101.58,d8:62:35:b6:3b:a6,Rocky Linux 9,4,8,Security,testing,Gabriel Isern-Ramón
+srv-hr-0186,10.203.141.5,20:2c:b0:4d:bc:71,Ubuntu Server 24.04,8,8,HR,production,Rebeca Cerdán Bellido
+srv-operations-0187,10.95.20.165,6e:bb:55:5f:52:fa,Windows Server 2019,2,2,Operations,staging,Florina Pelayo Ropero
+srv-security-0188,10.110.219.198,64:6d:03:2d:f0:23,Windows Server 2019,4,8,Security,production,Jenaro Huguet Montenegro
+srv-management-0189,10.207.195.168,12:6e:87:b5:f7:f5,Windows Server 2016,64,2,Management,testing,Rufina Mayoral Puga
+srv-operations-0190,10.12.15.27,84:f4:30:da:dc:ca,Windows Server 2019,2,16,Operations,production,Rosaura del Talavera
+srv-security-0191,10.74.86.202,52:81:83:bf:13:42,Windows Server 2016,32,2,Security,staging,Vicente Serna Pi
+srv-management-0192,10.5.173.142,76:1d:ed:e4:cd:6c,Windows Server 2022,8,16,Management,production,Azahar Susana Cano Caballero
+srv-operations-0193,10.37.9.174,9a:83:b9:67:e5:48,Rocky Linux 9,64,16,Operations,staging,Oriana Azcona
+srv-development-0194,10.234.132.130,30:f7:ff:12:da:7a,Debian 12,8,16,Development,development,Olivia Adán Araujo
+srv-hr-0195,10.155.6.102,dc:1a:2a:07:b4:ed,Windows Server 2016,64,8,HR,staging,Sonia Rocamora Canals
+srv-finance-0196,10.9.172.83,3e:9e:1e:6c:8c:59,Windows Server 2016,16,8,Finance,development,Urbano Merino Cerro
+srv-security-0197,10.44.81.40,44:6d:10:8c:a6:de,Ubuntu Server 24.04,64,2,Security,staging,Lucho Bilbao
+srv-hr-0198,10.52.10.176,e2:ba:e8:c5:9e:07,Windows Server 2022,16,4,HR,development,Cristian Marcos Ugarte
+srv-security-0199,10.51.205.10,0c:2f:b6:5c:91:9c,Debian 12,64,4,Security,development,Nilo Galván Cerdán
+srv-development-0200,10.111.204.215,80:f4:0c:a1:04:0f,Windows Server 2022,2,8,Development,testing,Jennifer Ignacia Solera Pablo
+srv-security-0201,10.15.116.35,d6:52:b3:e9:de:95,Ubuntu Server 22.04,16,2,Security,production,Azahara Rosa
+srv-development-0202,10.133.196.43,d4:00:67:29:dd:25,Debian 12,4,16,Development,development,Dorotea Obdulia Jódar Vidal
+srv-security-0203,10.194.105.245,84:d4:76:78:55:68,Rocky Linux 9,2,8,Security,production,Jose Catalán Rosa
+srv-operations-0204,10.205.15.136,82:d6:cf:f4:9f:02,Ubuntu Server 24.04,4,16,Operations,staging,Cristóbal Espejo Galván
+srv-operations-0205,10.59.85.235,0a:a3:99:02:e2:cf,Windows Server 2016,4,2,Operations,testing,Cesar del Contreras
+srv-it-0206,10.15.222.7,cc:45:c6:dc:5b:80,Debian 12,32,4,IT,staging,Jenaro del Bravo
+srv-it-0207,10.170.218.198,ee:61:64:45:66:6f,Windows Server 2019,16,2,IT,development,Hector de Herranz
+srv-development-0208,10.176.28.35,96:05:2d:07:5f:e3,Rocky Linux 9,4,8,Development,testing,Marcia Feliu
+srv-operations-0209,10.166.226.176,06:c5:56:53:91:72,Ubuntu Server 24.04,64,2,Operations,development,Reinaldo Garcés
+srv-management-0210,10.48.95.32,b8:35:97:59:62:33,Windows Server 2012,8,4,Management,staging,Amarilis Oriana Mur Mate
+srv-management-0211,10.228.123.4,0c:bf:33:12:d0:cf,Rocky Linux 9,64,8,Management,development,Amarilis Valentina Carranza Mendoza
+srv-operations-0212,10.153.147.225,d4:df:35:5e:80:62,Rocky Linux 9,16,2,Operations,development,Sancho Jaume Armas
+srv-operations-0213,10.101.43.158,60:5e:41:8e:66:db,Ubuntu Server 24.04,16,2,Operations,development,Marisol Bustamante Anaya
+srv-hr-0214,10.236.181.40,74:f3:88:61:06:99,Windows Server 2022,64,4,HR,testing,Luisina Teófila Alcalde Acero
+srv-finance-0215,10.96.46.100,54:50:db:01:4e:c3,Rocky Linux 9,16,2,Finance,testing,Benito Fábregas Tejera
+srv-management-0216,10.123.3.198,bc:06:85:73:b7:81,Rocky Linux 9,2,8,Management,development,Alondra Carpio-Conde
+srv-finance-0217,10.18.174.46,e4:cd:d8:48:32:83,Rocky Linux 9,64,8,Finance,testing,Roberta García Roda
+srv-operations-0218,10.249.38.185,ba:9c:12:46:f7:d2,Windows Server 2019,8,4,Operations,development,María Luisa Tamarit Cerezo
+srv-finance-0219,10.182.123.51,92:f4:5d:8b:40:95,Windows Server 2012,32,16,Finance,development,Natividad Manuela Alonso Salamanca
+srv-it-0220,10.61.184.220,c6:82:1e:47:89:9c,Ubuntu Server 22.04,8,16,IT,development,Elpidio del Seco
+srv-development-0221,10.103.137.102,7e:f6:ea:e2:cd:3c,Windows Server 2016,64,16,Development,testing,Cruz Francisco Rosa
+srv-security-0222,10.53.54.73,6c:e1:d1:57:21:6c,Ubuntu Server 22.04,16,16,Security,production,Hugo Ramón Sanz
+srv-finance-0223,10.54.165.211,f0:97:1b:01:02:26,Debian 12,4,4,Finance,testing,Germán Vizcaíno Samper
+srv-management-0224,10.214.74.226,e4:92:17:c7:96:5c,Windows Server 2016,8,4,Management,development,Liliana Lucena Sotelo
+srv-finance-0225,10.167.123.147,10:23:56:83:d8:a6,Ubuntu Server 24.04,32,2,Finance,testing,Jacobo Águila Téllez
+srv-management-0226,10.170.135.221,c4:fa:48:52:9a:21,Ubuntu Server 22.04,16,4,Management,production,Miguela Uriarte Barón
+srv-it-0227,10.215.8.171,92:a9:07:6f:54:81,Ubuntu Server 24.04,2,2,IT,staging,Perla Pedraza Almeida
+srv-it-0228,10.231.62.135,f2:35:c9:91:71:2d,Windows Server 2019,4,8,IT,testing,Carla de Barriga
+srv-it-0229,10.43.111.121,92:b4:b9:74:76:0f,Windows Server 2012,32,4,IT,production,Malena Piquer
+srv-management-0230,10.244.234.164,20:eb:66:0d:2f:1e,Windows Server 2022,16,4,Management,production,Rosaura Reguera-Marti
+srv-hr-0231,10.33.80.100,8c:75:50:0b:2f:ce,Windows Server 2019,16,2,HR,production,Bernardino de Hervás
+srv-development-0232,10.1.156.63,6a:ea:e7:5d:b9:8a,Ubuntu Server 24.04,64,16,Development,development,Dolores Solís Planas
+srv-hr-0233,10.13.17.227,a2:f3:d3:38:1a:10,Ubuntu Server 24.04,64,4,HR,production,Andrés Castellanos
+srv-operations-0234,10.39.189.66,42:0b:cc:bb:9c:2b,Ubuntu Server 22.04,4,8,Operations,staging,Hortensia Porcel-Carbajo
+srv-management-0235,10.213.143.236,d4:d7:d9:0c:0b:d3,Rocky Linux 9,8,4,Management,testing,Cristian Bárcena Villanueva
+srv-operations-0236,10.28.235.102,94:34:10:46:ea:6b,Windows Server 2012,8,4,Operations,production,Ema Elías Cerdán
+srv-finance-0237,10.89.225.173,c2:2a:91:40:b3:63,Ubuntu Server 24.04,64,16,Finance,production,Ximena Bustamante Noriega
+srv-management-0238,10.207.55.111,9e:6c:e4:84:4f:43,Ubuntu Server 22.04,2,4,Management,testing,Manuela Manso Gibert
+srv-security-0239,10.163.155.159,9c:a9:1a:4b:cf:de,Ubuntu Server 24.04,64,2,Security,production,Iris Arroyo Colom
+srv-hr-0240,10.57.136.40,52:30:b1:95:0d:69,Ubuntu Server 22.04,64,16,HR,testing,Espiridión Marc Hoz Campillo
+srv-management-0241,10.37.123.47,46:d1:ec:85:27:92,Windows Server 2022,8,8,Management,production,Alejandra Roldan Cáceres
+srv-management-0242,10.191.135.211,98:63:1f:00:a2:a5,Ubuntu Server 24.04,2,16,Management,testing,Lucila Pintor Quiroga
+srv-it-0243,10.135.85.67,74:b0:9c:f7:6b:18,Windows Server 2022,2,4,IT,development,Albano Eduardo Farré Jordán
+srv-finance-0244,10.133.1.85,f0:1d:37:0a:ba:65,Windows Server 2019,32,8,Finance,testing,Edmundo Beltrán
+srv-management-0245,10.164.110.225,84:99:96:d7:97:9b,Ubuntu Server 22.04,4,16,Management,development,Segismundo Jordán León
+srv-operations-0246,10.244.124.92,a0:22:9d:cd:af:99,Ubuntu Server 22.04,2,16,Operations,staging,Hector Carlos Marcos
+srv-finance-0247,10.251.2.99,ac:3c:45:73:7a:a1,Debian 12,16,4,Finance,staging,Eugenio Balduino Donoso Cuéllar
+srv-management-0248,10.170.134.136,f4:9c:19:d2:68:cc,Windows Server 2016,16,4,Management,staging,Emilio Timoteo Luís Barrio
+srv-security-0249,10.197.126.75,8e:fc:d9:10:87:6d,Windows Server 2022,2,4,Security,development,Tito García
+srv-security-0250,10.92.192.191,1c:1e:90:fa:20:13,Debian 12,16,8,Security,staging,Edgardo Guadalupe Huguet Tapia
+srv-development-0251,10.79.86.151,72:ef:37:b7:da:60,Debian 12,32,4,Development,testing,Luisa Valentín Puente
+srv-hr-0252,10.22.5.96,88:e8:45:b2:cc:91,Rocky Linux 9,32,4,HR,development,Amor Griselda Lumbreras Luís
+srv-hr-0253,10.47.97.154,2c:9b:48:2d:32:6d,Ubuntu Server 24.04,32,16,HR,production,Damián Casares Mendez
+srv-hr-0254,10.110.156.61,24:89:f3:78:33:01,Rocky Linux 9,64,2,HR,staging,Charo Aller Amores
+srv-management-0255,10.67.54.102,0a:f0:a1:db:df:95,Ubuntu Server 22.04,32,8,Management,staging,Luisa Cabello
+srv-it-0256,10.219.27.78,28:23:be:02:90:8e,Windows Server 2019,8,8,IT,staging,Eva María Sabater Estevez
+srv-management-0257,10.67.130.146,7a:da:0d:59:b3:6e,Windows Server 2012,4,8,Management,production,Sebastián Ruben Rosa Mancebo
+srv-operations-0258,10.128.202.142,0c:84:55:60:ea:96,Ubuntu Server 24.04,4,2,Operations,testing,Miguela Franch Páez
+srv-operations-0259,10.45.225.78,20:7d:33:3a:7f:e4,Rocky Linux 9,2,16,Operations,production,Amor Canet Cuadrado
+srv-hr-0260,10.174.216.109,48:2d:4d:5f:ae:0d,Windows Server 2019,2,2,HR,staging,Eva Ríos
+srv-security-0261,10.173.238.45,f4:dd:36:fc:b1:37,Debian 12,8,8,Security,testing,Zacarías Cueto Isern
+srv-development-0262,10.37.3.35,4a:7e:20:c0:e0:7e,Ubuntu Server 22.04,64,16,Development,development,Agapito García Pozuelo
+srv-hr-0263,10.231.220.9,ca:8c:b1:7e:d3:99,Rocky Linux 9,4,4,HR,testing,Estrella Fuster Vicens
+srv-development-0264,10.241.200.206,56:d9:b5:17:36:c3,Windows Server 2016,2,8,Development,production,Silvio Rebollo Tirado
+srv-it-0265,10.171.121.145,82:00:b2:e8:75:4f,Debian 12,32,2,IT,staging,Trinidad del Cabezas
+srv-management-0266,10.221.69.88,5e:59:f7:c8:ac:20,Windows Server 2019,64,8,Management,testing,Alonso Giner
+srv-finance-0267,10.103.107.223,c6:0f:c6:e6:c8:3c,Rocky Linux 9,2,4,Finance,testing,Azucena Montalbán Cornejo
+srv-finance-0268,10.40.191.63,ba:b3:c8:1a:68:17,Windows Server 2012,64,8,Finance,production,Marcia de Palacios
+srv-hr-0269,10.163.216.238,f6:ad:05:71:b9:ac,Debian 12,8,2,HR,production,Marcelino Olivera Juliá
+srv-development-0270,10.174.100.59,88:d3:ca:95:1b:ce,Rocky Linux 9,4,16,Development,testing,Cruz Cervantes
+srv-security-0271,10.51.239.118,8c:3e:7f:62:f4:bf,Windows Server 2016,4,2,Security,production,Marcela Palau Portero
+srv-operations-0272,10.183.165.62,4a:b3:2d:9b:b3:9d,Windows Server 2019,16,4,Operations,testing,Blas Borrego Arnau
+srv-hr-0273,10.162.15.164,4c:3f:00:16:4f:d2,Debian 12,16,2,HR,development,Zoraida Garrido Guzmán
+srv-development-0274,10.123.12.79,94:c4:cb:61:5d:e1,Rocky Linux 9,64,8,Development,staging,Evaristo Alcolea-Casanova
+srv-hr-0275,10.241.164.250,1e:29:3c:c7:fe:34,Windows Server 2019,8,4,HR,development,Jose Carlos Leonardo Bustamante Pedraza
+srv-management-0276,10.141.133.149,56:53:28:c2:d5:f9,Ubuntu Server 22.04,64,4,Management,staging,Ulises Molins Gomis
+srv-operations-0277,10.77.210.113,26:e8:69:2b:cc:80,Ubuntu Server 22.04,32,16,Operations,testing,Emperatriz Jimenez
+srv-operations-0278,10.63.171.79,d6:12:b1:3b:fa:9a,Windows Server 2012,2,2,Operations,testing,Jaime del Cañizares
+srv-development-0279,10.8.242.224,50:4c:d8:0b:4c:e0,Windows Server 2016,4,4,Development,development,Ileana Salas Cal
+srv-operations-0280,10.225.85.138,de:ac:d0:ea:5b:a1,Windows Server 2022,2,16,Operations,production,Vinicio Bonifacio Raya Pujol
+srv-development-0281,10.187.3.34,68:ad:51:1a:00:43,Ubuntu Server 24.04,2,4,Development,production,Sara Guitart Codina
+srv-operations-0282,10.246.59.31,7a:38:70:39:69:cb,Windows Server 2019,4,2,Operations,testing,Buenaventura Gimeno Arco
+srv-hr-0283,10.82.151.81,d2:4e:f4:11:2f:e6,Debian 12,32,4,HR,staging,Ibán Velázquez Yuste
+srv-development-0284,10.4.246.91,68:49:0f:69:aa:6f,Rocky Linux 9,2,16,Development,production,Carolina Villaverde Benavent
+srv-it-0285,10.219.231.22,9c:bc:db:16:95:8a,Ubuntu Server 22.04,16,16,IT,production,Edelmiro Ferrer Azcona
+srv-security-0286,10.220.167.235,f2:64:fa:c9:9c:ad,Ubuntu Server 24.04,8,2,Security,production,Fausto Pedrosa Alonso
+srv-hr-0287,10.42.225.133,b6:c2:cf:71:4a:29,Windows Server 2016,8,8,HR,production,Griselda Bibiana Ródenas Llano
+srv-development-0288,10.130.33.76,f8:e3:b8:3c:39:6d,Ubuntu Server 24.04,8,4,Development,development,Casemiro de Alberola
+srv-management-0289,10.175.61.4,64:fa:e0:45:1e:2c,Windows Server 2019,4,4,Management,testing,Encarna Salmerón-Ugarte
+srv-operations-0290,10.153.52.28,12:b3:0c:eb:7c:54,Ubuntu Server 22.04,4,8,Operations,testing,Delfina Juliá Adadia
+srv-operations-0291,10.163.143.119,74:29:2a:4b:ba:51,Windows Server 2016,2,16,Operations,staging,Asunción Carranza Jara
+srv-security-0292,10.33.111.183,14:ef:31:73:81:a5,Rocky Linux 9,4,16,Security,staging,Haydée Mirta Colom Alcaraz
+srv-management-0293,10.37.69.200,9c:98:cb:7c:b7:2a,Windows Server 2016,64,16,Management,production,Reyna Ochoa Montoya
+srv-hr-0294,10.145.69.227,54:09:60:b1:27:6c,Windows Server 2012,64,16,HR,testing,Rosaura Luján Báez
+srv-hr-0295,10.221.60.55,4c:4f:b3:c6:fe:45,Windows Server 2016,32,8,HR,staging,Viviana Posada Gomez
+srv-operations-0296,10.255.202.105,bc:f1:8c:83:28:df,Debian 12,16,4,Operations,development,José Luis Díez Iñiguez
+srv-management-0297,10.25.98.172,06:42:0e:0b:c6:bd,Debian 12,32,8,Management,development,Saturnina Palomar
+srv-security-0298,10.92.169.185,84:90:6c:60:a4:cf,Windows Server 2019,64,2,Security,production,Ignacio Guillen Rincón
+srv-management-0299,10.245.104.223,7a:e0:bc:b5:2c:6b,Windows Server 2012,16,2,Management,development,Luisina Tapia Manrique
+srv-development-0300,10.2.216.195,e6:91:5d:43:fd:d9,Windows Server 2016,16,16,Development,testing,Juan Pablo Díaz Sabater
+srv-development-0301,10.213.46.146,2a:e4:cc:8d:0a:57,Windows Server 2022,8,2,Development,staging,Abel Jose Ramón Delgado Diego
+srv-finance-0302,10.98.75.236,f4:e8:29:48:f1:8c,Ubuntu Server 24.04,2,8,Finance,production,Graciana Díez Fortuny
+srv-operations-0303,10.41.14.102,62:cc:0c:55:e9:01,Rocky Linux 9,16,16,Operations,development,Jeremías Pelayo Gutierrez
+srv-hr-0304,10.186.218.230,54:07:ac:47:49:08,Windows Server 2019,2,2,HR,development,Félix Ros Garzón
+srv-security-0305,10.185.136.76,38:d5:ef:e7:dc:5d,Windows Server 2019,16,16,Security,staging,José Mari Farré-Polo
+srv-finance-0306,10.208.17.244,28:34:ae:05:80:a8,Ubuntu Server 24.04,2,4,Finance,staging,Celestina Cases Espejo
+srv-security-0307,10.53.171.193,76:0f:e4:30:9d:77,Windows Server 2016,64,8,Security,development,Pacífica Viña-Guijarro
+srv-hr-0308,10.22.121.46,7e:1b:1d:2f:1f:70,Ubuntu Server 22.04,16,2,HR,development,Nicanor Hurtado Ocaña
+srv-security-0309,10.235.74.189,14:f7:10:2e:f5:4d,Ubuntu Server 22.04,4,8,Security,production,Dalila Cueto Lago
+srv-development-0310,10.253.57.47,58:10:17:ad:f3:3d,Windows Server 2012,2,16,Development,staging,Jaime Arellano-Neira
+srv-finance-0311,10.152.61.73,8c:3f:2c:2a:d7:72,Debian 12,32,8,Finance,testing,Roberta del Amorós
+srv-hr-0312,10.123.164.217,cc:f9:27:d4:ac:1b,Windows Server 2022,16,16,HR,development,Francisca Jaume Manrique
+srv-development-0313,10.18.171.203,50:16:e3:8e:ca:df,Ubuntu Server 22.04,4,16,Development,testing,Belen Miró Jover
+srv-management-0314,10.251.181.142,80:de:42:6b:0a:46,Windows Server 2019,16,2,Management,production,Efraín Peñalver Falcón
+srv-hr-0315,10.129.63.226,22:dc:9e:dd:ba:ca,Windows Server 2016,8,4,HR,production,Ramón Parejo Granados
+srv-development-0316,10.17.224.63,a6:d8:92:7f:1a:e0,Ubuntu Server 22.04,2,2,Development,testing,Feliciana Alberto Barón
+srv-operations-0317,10.124.204.2,2a:68:5a:ef:47:1b,Windows Server 2012,64,16,Operations,development,Lorenzo Figuerola Carretero
+srv-it-0318,10.25.250.240,44:7d:76:09:2a:da,Windows Server 2019,2,4,IT,staging,Rosalinda Arias Vallés
+srv-development-0319,10.27.213.34,ec:ca:67:c0:19:2d,Rocky Linux 9,16,16,Development,testing,Saturnina Bernat
+srv-management-0320,10.222.78.27,72:f0:67:75:96:3e,Windows Server 2016,8,2,Management,testing,Laura Valle-Expósito
+srv-security-0321,10.253.8.228,32:c9:1f:62:2b:83,Windows Server 2012,8,16,Security,staging,Héctor Calleja Luís
+srv-development-0322,10.230.34.246,54:ea:4a:0e:71:5d,Ubuntu Server 22.04,4,4,Development,staging,Carina Gonzalo
+srv-operations-0323,10.252.3.125,46:f7:38:20:89:02,Ubuntu Server 24.04,2,4,Operations,development,Godofredo Peral Cañizares
+srv-security-0324,10.174.76.161,80:de:6f:cf:c7:47,Windows Server 2022,8,4,Security,testing,Eric Ros Miguel
+srv-finance-0325,10.237.119.22,40:c3:6e:3f:35:81,Ubuntu Server 24.04,16,4,Finance,testing,Gabriel Segismundo Cervera Rius
+srv-finance-0326,10.148.232.5,ce:10:fc:ea:33:7d,Windows Server 2016,64,2,Finance,staging,Marco Cervantes
+srv-security-0327,10.6.142.158,fc:23:0c:d3:b0:85,Ubuntu Server 24.04,2,4,Security,testing,Toribio Grau Pou
+srv-development-0328,10.188.229.139,a4:18:98:81:4c:4f,Windows Server 2019,2,8,Development,staging,Belen Mercader Suárez
+srv-it-0329,10.188.212.157,1e:42:35:9e:be:a6,Windows Server 2012,2,2,IT,staging,Santos Casanova
+srv-development-0330,10.13.45.97,c0:0c:d7:c8:e8:eb,Windows Server 2022,4,8,Development,development,Remigio Pardo Toro
+srv-management-0331,10.179.158.187,1a:04:ae:62:cd:f7,Windows Server 2016,4,4,Management,production,Aura Marco Ferreras
+srv-it-0332,10.169.20.245,b8:89:27:f5:76:c8,Windows Server 2016,64,8,IT,production,Goyo Merino
+srv-management-0333,10.141.114.243,46:67:c8:be:bf:f0,Windows Server 2012,64,8,Management,production,Reinaldo Collado Marquez
+srv-finance-0334,10.212.69.6,e0:48:51:9e:e0:c9,Windows Server 2019,32,8,Finance,testing,Amparo Almagro
+srv-finance-0335,10.124.92.165,b0:92:af:1f:3d:6f,Ubuntu Server 22.04,32,8,Finance,production,Coral Arrieta Beltran
+srv-management-0336,10.24.13.229,92:83:70:0a:91:76,Windows Server 2019,64,8,Management,development,Carmelita de Carvajal
+srv-security-0337,10.59.4.162,2a:e7:9a:d6:20:11,Windows Server 2016,16,2,Security,staging,Jacobo del España
+srv-it-0338,10.38.36.211,58:d1:64:29:d0:3f,Ubuntu Server 22.04,2,8,IT,production,Ruy Egea Martínez
+srv-security-0339,10.22.177.96,1a:26:a2:68:c4:83,Windows Server 2016,4,8,Security,production,Amanda Jimenez Arroyo
+srv-security-0340,10.132.199.224,ae:d2:3f:55:c0:f4,Rocky Linux 9,4,16,Security,production,Martín Ignacio Saez Jáuregui
+srv-it-0341,10.23.101.115,32:3d:de:5b:d6:58,Windows Server 2019,4,4,IT,testing,Ámbar Sacristán Arnaiz
+srv-it-0342,10.142.237.150,16:24:d5:28:65:fa,Rocky Linux 9,8,4,IT,production,Tamara Galan Amorós
+srv-management-0343,10.14.253.143,b6:5f:f6:6c:eb:1f,Rocky Linux 9,16,4,Management,production,Elba Paredes Manzano
+srv-it-0344,10.203.243.117,5c:08:22:65:c8:c1,Rocky Linux 9,32,8,IT,testing,Brunilda Olivia Cal Benito
+srv-security-0345,10.1.38.29,e2:60:fe:7b:71:25,Ubuntu Server 22.04,16,2,Security,production,Zacarías Canales Mendizábal
+srv-hr-0346,10.174.60.96,76:c7:59:d5:8b:1f,Windows Server 2022,32,8,HR,production,Cristian Giralt Leal
+srv-hr-0347,10.86.178.123,30:f8:71:7d:52:2a,Windows Server 2019,8,2,HR,production,Inmaculada Juliá Salmerón
+srv-development-0348,10.175.209.136,de:ad:dc:8f:c6:e2,Windows Server 2019,32,16,Development,production,Alex Salvador Plaza
+srv-finance-0349,10.251.168.22,22:99:fd:59:63:69,Windows Server 2022,8,2,Finance,production,Claudia Tovar-Arana
+srv-finance-0350,10.108.141.172,ce:25:d8:fe:90:47,Rocky Linux 9,2,4,Finance,production,Amaro Bosch Guijarro
+srv-security-0351,10.16.8.234,4e:d7:0c:aa:a6:35,Windows Server 2019,2,8,Security,development,Luis Miguel Quiroga
+srv-it-0352,10.129.190.48,94:f1:5e:46:d0:27,Windows Server 2016,64,16,IT,staging,Leonel Medina Llobet
+srv-security-0353,10.134.231.15,4e:a3:2b:ec:f7:9a,Debian 12,8,16,Security,staging,Jovita Amada Requena Llamas
+srv-operations-0354,10.71.234.226,e6:90:e7:fc:b2:5f,Windows Server 2016,2,2,Operations,testing,Herminio Miguel Acevedo Aragón
+srv-security-0355,10.184.207.145,82:da:db:55:18:51,Windows Server 2016,64,16,Security,testing,Dorotea Oller
+srv-hr-0356,10.51.53.43,1c:66:d8:45:df:69,Ubuntu Server 24.04,2,2,HR,development,Kike Felipe Aparicio Martín
+srv-finance-0357,10.10.139.89,6c:05:1c:af:c7:46,Windows Server 2022,8,4,Finance,production,Jorge Bernabé Urrutia Pombo
+srv-security-0358,10.226.60.189,72:91:25:90:f9:e3,Windows Server 2016,32,4,Security,staging,Amor Atienza Teruel
+srv-finance-0359,10.71.247.80,68:70:cb:e0:aa:ae,Ubuntu Server 24.04,8,8,Finance,staging,Bibiana Moll-Ferrer
+srv-finance-0360,10.65.175.125,e4:53:a9:d3:0f:cd,Ubuntu Server 24.04,64,16,Finance,production,Abilio Cabrera Echeverría
+srv-security-0361,10.222.7.12,c2:ed:88:13:c1:45,Windows Server 2016,4,4,Security,development,Margarita Boada Mesa
+srv-finance-0362,10.62.167.128,90:97:19:25:80:d5,Windows Server 2012,2,8,Finance,testing,Vasco Ribas Patiño
+srv-development-0363,10.222.97.80,ec:63:8a:f9:90:de,Ubuntu Server 24.04,8,4,Development,production,León Valle Guillen
+srv-development-0364,10.30.185.156,a0:3a:e9:13:e2:1a,Rocky Linux 9,32,2,Development,staging,Florentina de Montesinos
+srv-management-0365,10.111.120.71,9e:22:2c:7d:80:d9,Ubuntu Server 24.04,2,16,Management,staging,Gregorio del Arnaiz
+srv-operations-0366,10.12.110.133,e4:e0:5e:d9:5e:52,Windows Server 2019,32,16,Operations,testing,Modesta Obdulia Verdú Boada
+srv-operations-0367,10.218.230.79,3e:10:93:60:13:37,Windows Server 2019,64,2,Operations,production,Darío de Cabello
+srv-security-0368,10.202.193.51,d0:9f:ad:2c:aa:99,Ubuntu Server 22.04,64,2,Security,staging,Elvira Sabater Cabrera
+srv-management-0369,10.29.197.69,b6:04:b0:3c:e7:19,Debian 12,2,8,Management,staging,Noé Hernández Zaragoza
+srv-finance-0370,10.166.190.14,e2:b4:1d:14:41:18,Windows Server 2012,4,2,Finance,development,Armando Francisco Gascón
+srv-development-0371,10.105.107.169,b8:bb:00:9d:80:f0,Windows Server 2012,32,4,Development,production,Natividad Bejarano Alcalde
+srv-hr-0372,10.60.49.224,e4:d0:a8:2d:8f:c7,Debian 12,2,16,HR,testing,Alejo Cózar Garay
+srv-finance-0373,10.113.45.161,66:7b:cf:fb:d6:e1,Debian 12,4,8,Finance,testing,Josué Saura Teruel
+srv-development-0374,10.88.168.155,08:3c:30:e1:30:cf,Windows Server 2016,4,8,Development,testing,América del Benavente
+srv-it-0375,10.150.216.136,c8:75:d6:16:fc:fa,Windows Server 2019,8,8,IT,production,Alcides de Pérez
+srv-security-0376,10.222.42.20,66:21:98:c8:77:fc,Ubuntu Server 22.04,16,4,Security,testing,Florina Luna Calleja
+srv-development-0377,10.59.120.203,70:94:c3:a3:ae:e0,Debian 12,4,2,Development,production,Luis Cuesta
+srv-hr-0378,10.219.6.214,28:5e:d9:ec:72:40,Windows Server 2016,4,16,HR,testing,Ildefonso Pablo Aroca Cantón
+srv-operations-0379,10.18.94.43,be:04:15:64:70:18,Windows Server 2012,64,4,Operations,development,Sofía Malo Planas
+srv-management-0380,10.147.101.172,22:67:08:72:23:f3,Windows Server 2022,4,2,Management,staging,Toribio Vallés Larrea
+srv-it-0381,10.75.128.185,8c:89:55:29:6a:a0,Windows Server 2012,8,2,IT,development,Celso Pánfilo Galindo Tomas
+srv-hr-0382,10.34.20.84,20:cb:0a:ec:55:59,Windows Server 2022,16,2,HR,development,Merche Piñeiro Pinto
+srv-finance-0383,10.231.19.139,18:10:6b:86:e1:a0,Debian 12,8,16,Finance,staging,Guiomar del Mir
+srv-management-0384,10.43.12.42,96:67:77:b7:21:91,Windows Server 2022,4,16,Management,testing,Plinio Sans Vera
+srv-security-0385,10.61.17.231,58:20:25:f8:b1:cb,Windows Server 2022,16,8,Security,staging,Pancho Galvez
+srv-finance-0386,10.133.114.211,6a:68:4e:c0:61:16,Rocky Linux 9,64,16,Finance,development,Roberto Villar Manrique
+srv-development-0387,10.174.102.57,ce:64:e5:fa:5c:6a,Rocky Linux 9,4,8,Development,staging,Jose Antonio de Domingo
+srv-it-0388,10.131.172.197,1c:08:f8:8c:86:51,Rocky Linux 9,64,4,IT,production,Ruth de Lobo
+srv-development-0389,10.54.177.24,92:39:e5:78:1a:e8,Windows Server 2019,16,8,Development,staging,Wilfredo Aníbal Figuerola Llorens
+srv-hr-0390,10.76.247.194,9e:1a:49:f3:e3:40,Rocky Linux 9,16,4,HR,testing,Chus Valero Poza
+srv-finance-0391,10.192.119.24,2e:c8:eb:da:15:14,Windows Server 2016,2,8,Finance,testing,Alondra Nogueira
+srv-operations-0392,10.251.236.22,ca:67:98:b3:08:85,Windows Server 2019,32,2,Operations,production,Ofelia Caballero Cortes
+srv-operations-0393,10.140.77.146,98:02:0b:4c:bf:3f,Windows Server 2016,16,8,Operations,development,Godofredo Llopis Moreno
+srv-security-0394,10.50.197.82,0e:8f:e3:2f:2e:c1,Windows Server 2022,64,16,Security,testing,Gabriel Torre
+srv-finance-0395,10.120.5.132,cc:31:83:a4:6a:c5,Rocky Linux 9,32,2,Finance,staging,Iris Palmer Sastre
+srv-operations-0396,10.199.44.239,5e:41:c1:f9:f3:5d,Ubuntu Server 22.04,2,16,Operations,development,Pascuala Aurora Franch Cortés
+srv-hr-0397,10.206.46.23,bc:42:15:12:a6:d4,Ubuntu Server 22.04,64,8,HR,production,Horacio Blas Ferrera Pardo
+srv-development-0398,10.211.254.151,2a:b3:0d:75:30:b6,Ubuntu Server 24.04,2,4,Development,development,Soledad del Estrada
+srv-security-0399,10.146.38.64,7a:1e:26:12:bd:86,Windows Server 2022,4,4,Security,testing,Eloy Hernandez Baeza
+srv-operations-0400,10.86.145.239,ee:70:f7:22:0b:cc,Debian 12,16,8,Operations,production,Ascensión Bello Fuente
+srv-hr-0401,10.35.213.164,a4:83:68:ad:bb:b5,Windows Server 2012,4,8,HR,development,Fernando de Martin
+srv-management-0402,10.170.211.88,30:55:a7:01:49:46,Ubuntu Server 22.04,4,2,Management,staging,Maximino Ruano Márquez
+srv-security-0403,10.241.70.247,6a:7c:17:b9:38:ef,Windows Server 2016,8,8,Security,development,Adrián Arellano Delgado
+srv-hr-0404,10.167.15.108,1e:f8:b1:55:70:51,Ubuntu Server 24.04,4,4,HR,production,Erasmo Cáceres-Sacristán
+srv-management-0405,10.175.253.158,72:76:af:2b:32:04,Ubuntu Server 22.04,4,8,Management,development,Lorena Peláez-Cuadrado
+srv-finance-0406,10.39.237.127,48:10:f7:32:18:c6,Ubuntu Server 24.04,4,2,Finance,testing,Hermenegildo Sobrino Pou
+srv-finance-0407,10.24.67.64,3c:b5:e9:60:31:de,Windows Server 2016,4,16,Finance,production,Domingo Vera Barranco
+srv-security-0408,10.198.114.230,9c:d4:31:db:48:8b,Windows Server 2019,4,8,Security,testing,Clímaco Pulido Iñiguez
+srv-hr-0409,10.249.96.123,5e:c3:ff:5c:b1:90,Ubuntu Server 24.04,16,2,HR,production,Lidia Guillén
+srv-it-0410,10.36.225.192,16:83:ca:ff:70:4e,Windows Server 2012,4,16,IT,production,Paulina Carvajal-Agustín
+srv-security-0411,10.76.34.78,d8:c7:fd:85:43:9e,Ubuntu Server 22.04,16,16,Security,development,Ana Sofía Santana Amigó
+srv-development-0412,10.151.195.98,12:1e:ea:96:43:2f,Debian 12,2,16,Development,testing,Jose Carlos Ros-Company
+srv-management-0413,10.134.120.33,cc:dc:07:a6:95:0d,Windows Server 2012,32,16,Management,development,Ricarda Pagès Miró
+srv-operations-0414,10.17.101.180,e4:0e:e1:62:84:77,Windows Server 2022,32,4,Operations,staging,Concha de Botella
+srv-management-0415,10.51.26.149,b4:28:35:93:33:b6,Windows Server 2016,2,4,Management,production,Elpidio de Leiva
+srv-operations-0416,10.40.215.46,ae:7a:6a:29:32:17,Windows Server 2016,8,16,Operations,testing,Agapito Aparicio-Alonso
+srv-finance-0417,10.221.150.45,ea:2f:6b:66:8e:dd,Rocky Linux 9,64,2,Finance,staging,Simón Canales Cueto
+srv-it-0418,10.24.177.254,28:5d:06:15:68:9a,Windows Server 2019,2,8,IT,development,Felix del Moraleda
+srv-management-0419,10.243.215.179,fa:ef:0e:4a:ce:9f,Windows Server 2016,2,16,Management,testing,Maximiano Gallo Cobos
+srv-development-0420,10.76.28.198,0e:a7:9b:23:08:45,Windows Server 2019,64,2,Development,development,Timoteo Porras Palomino
+srv-hr-0421,10.83.19.138,a0:43:08:ef:2a:22,Ubuntu Server 22.04,64,16,HR,testing,Luisina Cuéllar Leon
+srv-finance-0422,10.48.177.151,2c:a0:a6:f2:e7:3d,Rocky Linux 9,16,16,Finance,staging,Cleto Riba Ortiz
+srv-operations-0423,10.81.223.161,f4:fb:d0:3d:c1:b2,Ubuntu Server 22.04,2,2,Operations,development,Viviana Paredes Diaz
+srv-hr-0424,10.186.175.147,e6:b2:0d:69:d9:7d,Rocky Linux 9,2,16,HR,development,Toño Castell Torrecilla
+srv-development-0425,10.66.63.108,3e:65:62:3b:13:57,Windows Server 2016,32,8,Development,development,Azahara Guerrero Chaves
+srv-it-0426,10.89.138.121,88:b8:55:92:3b:53,Ubuntu Server 24.04,16,16,IT,staging,María José Valbuena
+srv-management-0427,10.43.157.31,2e:e5:39:6d:0b:01,Ubuntu Server 24.04,16,8,Management,development,Silvio del Cabañas
+srv-finance-0428,10.118.250.31,be:df:a2:52:c3:da,Debian 12,2,16,Finance,development,Florinda Casas-Alcalde
+srv-operations-0429,10.101.139.2,26:c4:65:59:df:c3,Ubuntu Server 24.04,2,16,Operations,staging,Chelo Castelló Bernat
+srv-hr-0430,10.167.85.94,f2:e5:7e:00:fc:06,Ubuntu Server 24.04,64,4,HR,production,Patricio Zaragoza Lluch
+srv-operations-0431,10.83.198.202,10:2e:ef:98:b7:08,Windows Server 2016,4,8,Operations,staging,Marcia Gonzalo Villegas
+srv-operations-0432,10.196.71.87,26:db:64:98:c0:5d,Windows Server 2012,16,4,Operations,testing,Prudencio Cuevas Morera
+srv-hr-0433,10.43.61.225,70:1e:e0:89:57:57,Rocky Linux 9,64,8,HR,staging,María Cano Rosales
+srv-finance-0434,10.52.61.6,8c:37:e9:76:04:34,Windows Server 2019,4,16,Finance,development,Toni Zapata Mata
+srv-management-0435,10.168.223.16,6a:8f:47:2d:17:0d,Ubuntu Server 22.04,16,16,Management,development,Ricarda Perelló Amo
+srv-operations-0436,10.243.231.36,06:0c:56:f7:4e:f1,Windows Server 2012,32,8,Operations,development,Laura Pareja Abellán
+srv-hr-0437,10.218.237.19,9e:6c:19:a1:68:67,Ubuntu Server 24.04,64,8,HR,development,Carlito Cabezas Albero
+srv-management-0438,10.75.138.114,ae:87:1e:d9:f9:67,Windows Server 2019,8,4,Management,development,Gil Elías Vaquero Villalobos
+srv-management-0439,10.183.13.127,f6:95:d0:1b:d6:df,Ubuntu Server 22.04,32,2,Management,staging,Victor Varela Guillén
+srv-hr-0440,10.27.41.176,50:b7:35:6a:2f:77,Windows Server 2012,8,2,HR,development,Blanca Reguera Salas
+srv-it-0441,10.5.22.150,f8:f3:88:b1:0e:99,Debian 12,2,2,IT,development,Rita Julie Carranza Gisbert
+srv-finance-0442,10.96.195.25,52:45:0e:41:dc:2a,Rocky Linux 9,32,2,Finance,testing,Gala Múñiz Riera
+srv-operations-0443,10.34.18.113,46:78:b7:94:34:da,Ubuntu Server 24.04,32,4,Operations,development,Cayetano Menéndez Rojas
+srv-development-0444,10.85.242.236,68:14:75:81:06:1e,Ubuntu Server 24.04,32,16,Development,testing,Nicodemo Basilio Vázquez Calatayud
+srv-management-0445,10.96.89.20,ca:ac:b1:c8:84:34,Ubuntu Server 24.04,8,4,Management,production,Gala Porta Anaya
+srv-management-0446,10.233.247.115,b2:6b:02:e7:3a:6a,Windows Server 2019,16,2,Management,staging,Micaela Carrasco
+srv-it-0447,10.146.48.174,b0:3e:64:c8:66:9e,Ubuntu Server 24.04,16,8,IT,staging,Edgardo de Español
+srv-development-0448,10.114.144.115,0e:4b:3f:01:8b:fa,Windows Server 2019,4,4,Development,staging,Dominga Marí Salmerón
+srv-hr-0449,10.0.148.83,ea:bc:20:57:e5:6a,Windows Server 2012,2,2,HR,development,Delia Bermejo
+srv-management-0450,10.81.66.108,5e:06:5e:93:9a:75,Rocky Linux 9,64,8,Management,testing,Claudio de Acuña
+srv-hr-0451,10.139.136.183,a2:fc:52:2b:3c:ec,Windows Server 2022,64,8,HR,production,Aníbal del Uribe
+srv-hr-0452,10.216.46.35,f0:d1:75:46:f2:f7,Ubuntu Server 24.04,4,2,HR,testing,Melchor Marti Francisco
+srv-it-0453,10.233.44.22,4c:7d:d9:9b:ed:2b,Windows Server 2019,32,8,IT,staging,Anna Girón Abella
+srv-hr-0454,10.124.42.92,6c:16:46:3b:bd:b3,Rocky Linux 9,64,2,HR,development,Pío Cantón Porcel
+srv-management-0455,10.69.214.248,56:5e:89:0e:0a:97,Debian 12,8,8,Management,testing,Inmaculada Reyna Arco Mendez
+srv-management-0456,10.186.140.37,ec:d7:fc:65:ec:3a,Windows Server 2019,16,16,Management,testing,Josué del Ribes
+srv-it-0457,10.182.24.210,a0:79:23:1b:a6:7d,Ubuntu Server 22.04,4,8,IT,development,Valentín Lino Blanch Reina
+srv-security-0458,10.66.198.199,dc:10:b8:8c:55:d5,Windows Server 2016,2,2,Security,development,Ramona de Baró
+srv-development-0459,10.231.132.203,5a:5c:c6:e3:24:2d,Windows Server 2022,8,16,Development,development,Concepción Sedano Solana
+srv-security-0460,10.122.4.211,b4:85:f5:c8:ee:82,Windows Server 2012,64,16,Security,staging,Roque Díaz-Cadenas
+srv-development-0461,10.86.249.86,86:bd:08:d0:85:c2,Ubuntu Server 24.04,16,16,Development,development,Severo Carbó Gimeno
+srv-operations-0462,10.83.101.56,34:f3:ef:11:9a:a9,Ubuntu Server 24.04,16,2,Operations,staging,Jose Teodoro Aragón Carro
+srv-development-0463,10.12.4.185,20:d3:b8:fd:bd:ba,Debian 12,64,4,Development,staging,Natalio Padilla Ayuso
+srv-security-0464,10.71.106.58,f6:e0:94:49:74:0e,Windows Server 2022,2,2,Security,development,Valero Vilanova Amorós
+srv-management-0465,10.142.22.36,a6:88:9c:dc:72:b2,Debian 12,4,4,Management,testing,Jenny Casals-Saavedra
+srv-management-0466,10.167.235.213,4a:f4:fc:a5:d3:ad,Ubuntu Server 24.04,2,4,Management,staging,Rita Lerma Baquero
+srv-hr-0467,10.52.139.115,24:62:45:71:51:34,Windows Server 2022,64,2,HR,testing,Lupita Cortés Tomas
+srv-operations-0468,10.13.132.110,f0:00:28:bf:a2:d9,Ubuntu Server 24.04,64,2,Operations,development,Salomé Téllez Rubio
+srv-security-0469,10.214.125.208,bc:19:60:7e:54:ed,Ubuntu Server 22.04,4,8,Security,development,Godofredo Aller Llanos
+srv-development-0470,10.172.204.135,02:70:fb:b5:9d:eb,Rocky Linux 9,32,8,Development,production,Simón Maldonado-Escalona
+srv-operations-0471,10.212.122.239,30:3b:15:f4:c4:ae,Debian 12,8,16,Operations,production,Geraldo Gallo Escamilla
+srv-security-0472,10.185.52.82,8a:5a:b4:38:94:79,Windows Server 2019,8,16,Security,testing,Natalia Moliner Uría
+srv-development-0473,10.126.226.204,5c:a6:37:b3:16:55,Ubuntu Server 24.04,2,8,Development,production,Calista Carvajal Tejada
+srv-operations-0474,10.47.194.82,0c:e3:a9:c1:ff:7e,Ubuntu Server 22.04,8,4,Operations,development,Dora Escalona
+srv-it-0475,10.34.91.91,a0:c3:c9:0e:8f:0e,Windows Server 2022,32,8,IT,testing,Consuela Flores Ramirez
+srv-finance-0476,10.48.58.130,d6:21:50:b2:76:26,Windows Server 2016,16,2,Finance,staging,Eutimio del Romero
+srv-hr-0477,10.134.226.14,ea:9a:0c:1a:04:ad,Windows Server 2022,16,8,HR,testing,Isidora Carpio Alfonso
+srv-security-0478,10.173.94.144,74:5c:68:db:f0:4e,Windows Server 2016,2,4,Security,production,Marcial Murillo-Baños
+srv-operations-0479,10.241.115.130,e2:b1:78:39:88:d6,Windows Server 2012,8,16,Operations,development,Juanita Abril Ayllón
+srv-development-0480,10.213.30.116,74:d9:18:4d:7c:28,Windows Server 2019,32,16,Development,testing,Sonia Sotelo-Canales
+srv-finance-0481,10.137.179.95,36:b3:c2:0a:39:1a,Windows Server 2019,16,4,Finance,staging,Ascensión Miralles Olmedo
+srv-it-0482,10.30.139.133,0c:59:a6:3d:68:f1,Rocky Linux 9,8,2,IT,development,Oriana Domínguez Cabrera
+srv-security-0483,10.198.67.29,ae:41:ee:46:9e:8e,Debian 12,4,4,Security,testing,Teresa Silva Salcedo
+srv-operations-0484,10.61.172.130,12:11:e8:21:aa:5e,Windows Server 2016,16,8,Operations,testing,Juan Manuel Río Barberá
+srv-operations-0485,10.30.228.22,08:61:aa:93:54:6a,Windows Server 2012,4,2,Operations,production,Lucho Casemiro Arce Sola
+srv-it-0486,10.58.76.133,40:8d:e0:3b:a4:11,Windows Server 2016,8,16,IT,development,Brígida Cortés Echeverría
+srv-management-0487,10.138.76.34,1c:8a:b8:fa:4c:0a,Ubuntu Server 22.04,4,16,Management,production,Victor de Merino
+srv-management-0488,10.185.137.51,40:d6:d4:57:02:d1,Rocky Linux 9,64,2,Management,testing,Paula Monreal Expósito
+srv-it-0489,10.209.162.98,9c:c9:fe:ef:c8:ab,Ubuntu Server 24.04,32,16,IT,development,Leocadia Alvarado-Ruiz
+srv-hr-0490,10.136.244.164,44:db:d8:4f:eb:fe,Ubuntu Server 22.04,16,4,HR,production,Germán Aureliano Teruel Ojeda
+srv-management-0491,10.91.174.246,08:81:36:ee:cb:8b,Ubuntu Server 24.04,16,2,Management,production,Eufemia Hoyos Mena
+srv-security-0492,10.182.57.200,e0:cc:6b:0b:d2:b1,Windows Server 2019,8,4,Security,production,Adalberto Peiró
+srv-security-0493,10.128.244.76,8c:a2:08:ca:65:78,Debian 12,2,2,Security,staging,Heriberto Ballesteros Tenorio
+srv-hr-0494,10.14.52.227,42:33:a4:b7:38:dc,Windows Server 2012,2,8,HR,production,Gil Martin Peinado Menéndez
+srv-hr-0495,10.224.127.158,3c:6a:87:38:a9:04,Ubuntu Server 24.04,64,16,HR,development,Candelas Roldán Carreras
+srv-hr-0496,10.80.98.149,4e:c1:7a:b6:93:20,Windows Server 2012,64,4,HR,testing,Ruy Gisbert Andres
+srv-security-0497,10.44.65.121,d0:08:1d:c0:8e:8b,Ubuntu Server 24.04,64,4,Security,development,Elba Peralta Alberto
+srv-operations-0498,10.10.60.20,3a:07:9b:13:c7:e3,Windows Server 2012,2,4,Operations,development,Lina Alfaro Ibañez
+srv-it-0499,10.139.186.82,d8:74:00:ac:d4:8a,Ubuntu Server 24.04,2,2,IT,staging,Mohamed José María Vigil Ferrández
+srv-operations-0500,10.5.160.242,18:58:c5:2b:8f:fa,Windows Server 2019,8,2,Operations,staging,Adrián Bermúdez Araujo
+srv-management-0501,10.141.156.240,36:e6:63:67:3a:02,Rocky Linux 9,4,4,Management,testing,Benita Fernandez Carbajo
+srv-management-0502,10.114.176.29,66:b4:27:08:64:88,Windows Server 2016,4,2,Management,testing,Samuel Maestre Baquero
+srv-it-0503,10.84.149.56,64:5e:4a:3f:d6:30,Rocky Linux 9,64,4,IT,staging,Edelmira Liliana Santamaría Bustos
+srv-hr-0504,10.94.117.8,dc:fa:97:da:fe:6c,Ubuntu Server 22.04,2,8,HR,development,Noé Barreda Mayol
+srv-management-0505,10.177.191.33,f8:60:cc:f5:0b:2b,Debian 12,2,8,Management,staging,Tania Lerma Carnero
+srv-hr-0506,10.151.12.184,06:49:a6:4c:db:6c,Ubuntu Server 22.04,4,16,HR,staging,Margarita Estevez Pozuelo
+srv-development-0507,10.234.183.103,aa:5f:c5:ad:2e:e7,Windows Server 2012,16,8,Development,testing,Inocencio Moliner Páez
+srv-operations-0508,10.31.206.129,b2:dc:74:30:4e:57,Windows Server 2016,4,16,Operations,staging,Manu Salvador Rey Salvador
+srv-development-0509,10.174.221.108,a0:7e:25:25:5f:3b,Rocky Linux 9,2,2,Development,testing,Reina Salcedo Oliveras
+srv-operations-0510,10.104.15.212,44:2f:7d:f6:3e:e1,Rocky Linux 9,16,16,Operations,development,Heliodoro Barral
+srv-operations-0511,10.164.3.198,d0:70:e4:9b:e9:af,Ubuntu Server 22.04,2,16,Operations,production,Encarna Matas Beltrán
+srv-finance-0512,10.30.148.239,e2:d8:c2:08:f7:7c,Debian 12,64,16,Finance,production,Elías Barberá Cañete
+srv-hr-0513,10.95.252.67,dc:89:60:2c:bc:60,Windows Server 2019,16,8,HR,testing,Hilario Morell
+srv-finance-0514,10.253.245.175,7c:00:cc:99:f1:c8,Windows Server 2019,32,2,Finance,production,Pacífica Beltran Macias
+srv-management-0515,10.11.67.236,30:53:11:70:3a:44,Debian 12,64,16,Management,development,Sebastián Ribes Lobato
+srv-management-0516,10.250.153.87,88:8c:e0:ce:66:8f,Windows Server 2019,4,8,Management,staging,Olegario de Cañete
+srv-management-0517,10.236.13.218,10:2f:ce:97:bb:19,Rocky Linux 9,8,16,Management,staging,Felisa Solé-Salcedo
+srv-security-0518,10.130.25.233,50:5f:1e:d7:f4:aa,Windows Server 2022,64,8,Security,testing,Matías Hilario Goicoechea Zabaleta
+srv-finance-0519,10.53.94.127,e0:2f:51:01:c2:99,Windows Server 2019,8,8,Finance,staging,Oriana Ferrándiz-Beltran
+srv-operations-0520,10.181.31.166,84:69:24:da:66:ae,Ubuntu Server 24.04,4,8,Operations,testing,Pastor del Pol
+srv-it-0521,10.9.124.141,52:52:b3:da:da:3f,Ubuntu Server 24.04,16,2,IT,production,Marciano Lorenzo Camps
+srv-development-0522,10.197.239.236,1e:29:68:7d:18:96,Windows Server 2019,4,4,Development,production,Alba Almazán Álvarez
+srv-operations-0523,10.132.253.100,f0:d8:12:47:a9:cf,Windows Server 2019,8,8,Operations,testing,Hector Arribas
+srv-it-0524,10.222.70.253,60:38:6e:c3:27:d2,Windows Server 2012,2,8,IT,development,Renato del Castillo
+srv-hr-0525,10.209.193.149,fc:1a:50:e8:68:44,Ubuntu Server 22.04,4,8,HR,production,María del Serra
+srv-it-0526,10.182.17.60,c0:08:33:8a:59:e2,Windows Server 2016,16,2,IT,testing,Marianela Pulido Figueroa
+srv-finance-0527,10.73.125.30,36:4b:4d:be:93:64,Windows Server 2019,2,16,Finance,production,Begoña Bonilla Mateo
+srv-finance-0528,10.149.188.185,90:fc:d9:2e:cd:4f,Windows Server 2019,16,4,Finance,development,Nydia Sancho Torrecilla
+srv-security-0529,10.191.79.215,68:bc:01:f8:51:cb,Ubuntu Server 24.04,64,8,Security,staging,Valero Roma-Roldán
+srv-security-0530,10.93.154.137,4a:ee:7b:31:9e:e1,Ubuntu Server 22.04,32,4,Security,testing,Bárbara Otilia Conesa Contreras
+srv-management-0531,10.120.84.188,ac:2c:54:a5:7f:cb,Windows Server 2019,8,16,Management,testing,Noemí Osuna Morante
+srv-it-0532,10.220.117.84,2c:8d:2b:a2:35:eb,Windows Server 2022,8,2,IT,production,Alondra Isidora Arias Romero
+srv-management-0533,10.250.57.239,9a:28:7d:f7:f7:26,Debian 12,8,4,Management,production,Marisela Machado
+srv-development-0534,10.166.234.74,64:e0:a6:ea:4f:1d,Ubuntu Server 24.04,64,16,Development,production,Bernabé Domínguez Bosch
+srv-development-0535,10.171.189.92,82:9f:02:96:4e:82,Ubuntu Server 24.04,8,2,Development,development,Gervasio Abel Rios Roura
+srv-it-0536,10.248.56.102,ca:a6:63:ea:5f:74,Ubuntu Server 22.04,64,16,IT,production,Jordi Vilalta
+srv-it-0537,10.242.3.64,90:1e:90:5e:66:ce,Ubuntu Server 22.04,16,4,IT,testing,Luz Zabaleta Julián
+srv-security-0538,10.166.152.81,02:96:52:95:2b:78,Debian 12,2,16,Security,production,Ángel Arellano Torrecilla
+srv-hr-0539,10.88.28.236,9a:14:c8:0d:70:c7,Windows Server 2019,2,16,HR,development,Modesta de Bermudez
+srv-finance-0540,10.170.178.173,34:f2:5c:1d:37:b5,Debian 12,64,4,Finance,development,Sergio Ávila Goñi
+srv-finance-0541,10.8.204.61,30:78:4b:ad:ef:5b,Debian 12,4,2,Finance,staging,Calixto Amador
+srv-development-0542,10.156.39.148,26:02:e3:b3:02:e3,Debian 12,16,8,Development,production,Candelario del Guardia
+srv-it-0543,10.48.95.124,94:01:36:1e:fe:3f,Rocky Linux 9,8,2,IT,development,Renato Camps
+srv-security-0544,10.95.53.59,54:58:11:26:1d:b3,Windows Server 2012,8,8,Security,production,Zaira Prado Rocha
+srv-hr-0545,10.56.228.29,58:ff:e0:ac:67:c0,Windows Server 2019,8,2,HR,staging,Zacarías Lladó
+srv-hr-0546,10.78.101.63,a2:b1:35:1d:39:a9,Ubuntu Server 24.04,8,4,HR,testing,Fernanda Caro Pinto
+srv-management-0547,10.115.55.71,64:2f:98:58:31:75,Windows Server 2019,32,4,Management,staging,Marciano Oliver
+srv-operations-0548,10.157.152.244,f0:9f:21:1e:28:e9,Ubuntu Server 24.04,2,8,Operations,staging,Jimena Bermudez Madrid
+srv-development-0549,10.126.254.100,1a:6e:eb:15:f8:9a,Ubuntu Server 22.04,64,8,Development,production,Armando Bárcena Robledo
+srv-management-0550,10.2.173.182,ce:37:1e:96:3f:eb,Ubuntu Server 24.04,32,4,Management,production,Ariel Santana Corral
+srv-hr-0551,10.17.147.34,06:8b:66:c6:ca:7f,Debian 12,2,2,HR,production,Pascual Casals
+srv-security-0552,10.162.61.229,26:4b:66:65:66:7d,Windows Server 2022,2,16,Security,production,Eutimio Artigas
+srv-finance-0553,10.163.146.112,b0:c9:c6:5c:fc:bf,Debian 12,16,8,Finance,testing,Narcisa Alicia Anaya Sánchez
+srv-hr-0554,10.55.12.56,0a:e7:dd:7c:36:a3,Windows Server 2019,64,2,HR,staging,Leonel Roura Escudero
+srv-it-0555,10.141.99.158,90:19:47:ca:86:0d,Windows Server 2012,64,4,IT,staging,Esteban Peña Porta
+srv-operations-0556,10.27.184.33,64:4f:b9:62:20:80,Windows Server 2012,2,8,Operations,testing,Milagros Nicolau Galán
+srv-development-0557,10.28.10.49,ba:8c:92:91:50:5f,Ubuntu Server 24.04,2,4,Development,production,Julie del Teruel
+srv-management-0558,10.0.107.131,46:58:9e:f0:e8:fc,Windows Server 2022,2,2,Management,production,Marco Hurtado Redondo
+srv-operations-0559,10.199.234.193,b6:42:8d:5f:db:6d,Ubuntu Server 24.04,2,16,Operations,production,Roque Robles Coello
+srv-finance-0560,10.76.179.231,d2:03:87:be:c6:b1,Ubuntu Server 22.04,64,4,Finance,production,Gil Peñas Lopez
+srv-operations-0561,10.144.148.166,fc:35:fd:f3:81:4f,Debian 12,2,4,Operations,development,Teresita Roura Perelló
+srv-development-0562,10.52.253.126,20:6b:bb:25:aa:a1,Ubuntu Server 24.04,8,4,Development,development,Armando Pineda Amigó
+srv-management-0563,10.60.73.33,e8:71:00:2f:4a:37,Windows Server 2019,32,16,Management,development,Ainoa Manuela Alsina Oliva
+srv-hr-0564,10.188.78.62,90:01:75:aa:d6:a1,Ubuntu Server 22.04,8,4,HR,staging,María Cristina Torralba Jódar
+srv-management-0565,10.76.184.197,38:d2:d5:f0:40:da,Rocky Linux 9,16,8,Management,production,Toño Alcalde Espada
+srv-hr-0566,10.49.126.184,6e:f4:d7:7f:3e:18,Ubuntu Server 22.04,16,4,HR,testing,Azahara Pedrosa Mancebo
+srv-operations-0567,10.170.158.94,f6:1d:4c:db:f3:5b,Windows Server 2016,16,8,Operations,production,Graciana Arias Pinilla
+srv-security-0568,10.224.52.189,ec:43:44:4c:fa:a9,Debian 12,64,16,Security,staging,Guiomar de Simó
+srv-development-0569,10.156.189.206,82:42:f3:24:02:ef,Debian 12,64,8,Development,development,Josep Ropero Avilés
+srv-finance-0570,10.165.103.253,58:e2:e8:40:ba:20,Windows Server 2012,32,2,Finance,staging,Ramón Cañas Prado
+srv-hr-0571,10.40.244.112,98:98:ad:e0:80:bc,Rocky Linux 9,4,8,HR,production,Fortunato Asdrubal Barreda Urrutia
+srv-security-0572,10.155.42.22,c4:8c:57:eb:f4:c1,Rocky Linux 9,8,4,Security,staging,Emperatriz Casals-Llamas
+srv-security-0573,10.247.46.84,32:3b:c6:0c:29:88,Windows Server 2019,32,2,Security,development,Patricia Aguilar
+srv-management-0574,10.34.76.85,ac:bc:e8:72:8b:b4,Windows Server 2016,64,8,Management,production,Virginia del Cazorla
+srv-management-0575,10.200.6.79,ca:e7:33:09:87:b9,Windows Server 2022,64,4,Management,testing,César Mendizábal Aragón
+srv-hr-0576,10.3.1.152,e4:76:d4:cf:11:a8,Ubuntu Server 22.04,16,8,HR,testing,Emma Encarnacion Carrión Solé
+srv-management-0577,10.105.126.161,66:6a:a4:73:d5:4f,Rocky Linux 9,2,4,Management,staging,Salud Cruz Campoy
+srv-security-0578,10.115.60.79,7e:f5:e5:46:4c:aa,Ubuntu Server 22.04,4,4,Security,development,Celestino Duarte Meléndez
+srv-development-0579,10.98.121.129,92:20:42:90:b1:e8,Windows Server 2016,64,8,Development,development,Anita Martinez
+srv-security-0580,10.235.7.131,62:dc:f8:31:40:e5,Ubuntu Server 24.04,2,16,Security,development,Emilio Comas Fortuny
+srv-it-0581,10.156.200.186,c4:6e:e7:f9:41:3f,Windows Server 2012,64,4,IT,production,Danilo Perelló
+srv-operations-0582,10.121.183.189,4e:b4:15:12:24:38,Windows Server 2022,32,8,Operations,testing,Mónica Espejo Maza
+srv-hr-0583,10.36.103.73,c6:d8:88:2d:d9:ad,Ubuntu Server 24.04,16,8,HR,development,Flavia Sacristán Mascaró
+srv-development-0584,10.244.141.91,82:d7:b6:53:09:60,Ubuntu Server 22.04,64,16,Development,production,Florencia Pomares Domínguez
+srv-security-0585,10.191.118.239,6a:79:db:d6:ee:08,Windows Server 2022,8,16,Security,staging,Rosalinda Cabanillas Bartolomé
+srv-development-0586,10.10.194.203,64:3d:92:e7:6d:09,Windows Server 2019,4,4,Development,development,Gonzalo Cifuentes
+srv-it-0587,10.12.39.141,a6:c4:2c:e9:0b:63,Windows Server 2012,4,8,IT,staging,Ceferino Cornejo Verdú
+srv-it-0588,10.95.76.61,92:5d:d8:4a:f6:1b,Windows Server 2012,8,2,IT,development,María Manuela Hurtado Feijoo
+srv-operations-0589,10.77.150.107,cc:ba:17:8d:3c:ea,Rocky Linux 9,64,8,Operations,production,Manu Polo-Torrents
+srv-security-0590,10.97.37.20,64:f7:1b:49:a9:c8,Ubuntu Server 24.04,8,16,Security,production,Pili Anglada-Gil
+srv-development-0591,10.33.121.181,44:c1:a5:b0:04:03,Ubuntu Server 24.04,64,16,Development,development,Natalio Tejedor Checa
+srv-finance-0592,10.15.182.59,00:47:ec:92:8e:ce,Debian 12,4,16,Finance,production,Jacinta Molins Codina
+srv-it-0593,10.203.215.55,e2:78:74:97:f5:61,Windows Server 2016,4,4,IT,testing,León Alfaro Leal
+srv-security-0594,10.204.132.88,54:23:63:a4:e6:61,Windows Server 2016,16,16,Security,staging,Edgardo Royo Iborra
+srv-management-0595,10.120.102.178,72:99:82:a7:3d:5e,Debian 12,8,2,Management,production,Lina Polo Gaya
+srv-management-0596,10.205.249.249,c0:68:8e:47:4a:aa,Windows Server 2022,2,16,Management,staging,Fabricio de León
+srv-security-0597,10.116.15.242,0a:83:66:ae:43:0e,Windows Server 2022,16,4,Security,development,Damián Gaya
+srv-operations-0598,10.14.247.135,72:03:0c:59:a2:d5,Debian 12,4,4,Operations,production,Heraclio de Fernández
+srv-hr-0599,10.225.94.79,7e:4a:9b:72:0b:35,Debian 12,32,4,HR,development,Pilar Angulo Lucena
+srv-finance-0600,10.82.24.250,c2:4a:1a:66:44:f6,Rocky Linux 9,8,8,Finance,staging,Petrona Perales Melero
+srv-it-0601,10.100.122.28,78:9b:09:17:1f:c0,Windows Server 2012,2,4,IT,testing,Xavier Collado Duque
+srv-it-0602,10.163.197.102,18:4d:39:be:b4:6c,Ubuntu Server 24.04,4,2,IT,staging,Yolanda Bonilla-Aguilera
+srv-development-0603,10.254.237.231,7e:4a:07:4a:af:73,Ubuntu Server 22.04,2,4,Development,testing,Vinicio Escrivá Pallarès
+srv-management-0604,10.206.35.170,ac:85:7f:c4:78:9d,Ubuntu Server 24.04,8,2,Management,testing,Nando de Lara
+srv-operations-0605,10.88.231.159,58:24:b7:19:ce:8f,Ubuntu Server 24.04,2,2,Operations,testing,Palmira Cañete
+srv-hr-0606,10.121.98.173,2e:a0:03:4e:2d:cf,Windows Server 2022,8,8,HR,development,Odalys Llopis
+srv-operations-0607,10.71.24.198,3c:3b:4c:2e:1f:17,Rocky Linux 9,8,2,Operations,staging,Fausto Leonardo Nogués Tolosa
+srv-it-0608,10.79.5.55,94:76:b6:9a:35:4f,Rocky Linux 9,4,4,IT,development,Narcisa España-Padilla
+srv-operations-0609,10.103.115.153,5c:7d:87:8e:7a:4e,Windows Server 2022,64,16,Operations,development,Herminia de Cantero
+srv-management-0610,10.59.73.129,fc:05:7b:f7:4f:e9,Ubuntu Server 24.04,2,2,Management,development,Cebrián Aristides Soler Pineda
+srv-hr-0611,10.220.20.150,ea:02:2f:06:13:8e,Debian 12,8,8,HR,testing,Amparo del Palacios
+srv-it-0612,10.74.234.219,58:14:ad:c1:a9:e4,Windows Server 2019,16,16,IT,development,Manu Adadia Múgica
+srv-management-0613,10.146.98.46,ea:28:f4:b9:cc:08,Rocky Linux 9,8,2,Management,staging,Anunciación Cayetana Barón Ponce
+srv-operations-0614,10.37.30.10,0c:75:a0:7f:6c:50,Ubuntu Server 24.04,8,4,Operations,development,Florina Almansa Ortega
+srv-finance-0615,10.28.220.196,5c:7b:1f:83:fd:e5,Windows Server 2012,64,8,Finance,production,Íngrid Abad
+srv-security-0616,10.133.177.27,f4:08:75:33:db:c8,Ubuntu Server 24.04,32,16,Security,testing,Celia Santos Rojas
+srv-security-0617,10.47.25.71,e4:3f:62:99:8a:8f,Ubuntu Server 24.04,16,16,Security,development,Belén Pulido Falcón
+srv-operations-0618,10.196.22.245,1e:a3:e0:dd:e5:c6,Windows Server 2016,2,16,Operations,production,Jacinto Valenciano Pera
+srv-it-0619,10.129.193.1,60:42:d0:48:aa:ec,Windows Server 2016,4,4,IT,testing,Javier Ribas Querol
+srv-it-0620,10.125.233.150,06:85:6e:f8:95:74,Debian 12,16,4,IT,development,Pepito Federico Bonilla Rosales
+srv-it-0621,10.214.214.117,4e:94:92:9c:06:71,Windows Server 2016,32,8,IT,staging,Elisa Ordóñez Bernat
+srv-management-0622,10.183.131.242,a8:0d:b9:bd:77:72,Windows Server 2019,2,16,Management,development,Juan Carlos Castilla-Reguera
+srv-operations-0623,10.125.92.187,44:aa:df:df:d6:82,Ubuntu Server 24.04,64,2,Operations,staging,Gabino Valenzuela Antón
+srv-security-0624,10.87.13.1,38:32:e3:d0:4c:9c,Windows Server 2019,64,8,Security,testing,Fabio Gimeno
+srv-operations-0625,10.12.87.66,3a:dc:2e:2e:ab:34,Ubuntu Server 24.04,4,4,Operations,production,Kike Chico Lucena
+srv-security-0626,10.5.245.200,9a:5f:db:7b:e7:57,Windows Server 2016,32,4,Security,development,Paz Vilaplana Mateos
+srv-development-0627,10.220.91.158,3c:07:af:67:e5:14,Rocky Linux 9,8,16,Development,production,Gema Alberola Peralta
+srv-finance-0628,10.121.182.177,42:9d:2e:a6:9b:1f,Ubuntu Server 24.04,64,16,Finance,production,Carmela Ángel Pereira
+srv-development-0629,10.128.141.38,9a:f0:a3:44:8d:25,Windows Server 2019,32,4,Development,development,Fanny Frutos Chaparro
+srv-it-0630,10.18.193.117,38:56:fb:9b:1e:21,Ubuntu Server 22.04,2,16,IT,staging,Fabiola Iniesta Flor
+srv-hr-0631,10.95.16.168,66:dc:95:b4:8e:16,Ubuntu Server 22.04,2,8,HR,development,Custodio Poza
+srv-security-0632,10.25.225.215,a2:bb:f8:74:db:df,Ubuntu Server 22.04,16,2,Security,production,Vidal Márquez Carmona
+srv-finance-0633,10.91.191.49,a6:58:71:1b:5f:1e,Windows Server 2022,4,2,Finance,staging,Julián de López
+srv-management-0634,10.157.32.190,2c:b5:e9:9a:78:56,Rocky Linux 9,4,4,Management,testing,Vidal Asensio Sainz
+srv-it-0635,10.32.201.45,2a:9a:b3:b3:7c:ef,Debian 12,16,8,IT,staging,Esther Bello
+srv-operations-0636,10.82.24.141,36:ba:d2:c0:5f:47,Windows Server 2022,2,2,Operations,development,Calixta Asensio Ochoa
+srv-it-0637,10.28.64.178,32:29:e4:b1:e1:34,Windows Server 2012,32,16,IT,production,Pía del Sanmiguel
+srv-hr-0638,10.223.101.10,7c:ad:c9:77:9b:fc,Ubuntu Server 24.04,2,2,HR,testing,Marita de Olivera
+srv-security-0639,10.76.183.77,b6:7a:24:f7:33:0a,Rocky Linux 9,32,2,Security,development,Dorita Zabala Piquer
+srv-security-0640,10.80.142.96,14:f7:26:a2:19:7f,Rocky Linux 9,4,8,Security,staging,Amílcar Iglesia Pérez
+srv-finance-0641,10.115.88.27,4e:d7:a3:bf:f7:6f,Windows Server 2012,8,4,Finance,staging,Mónica Hoz Blanch
+srv-operations-0642,10.200.188.81,2a:84:99:29:1b:a4,Ubuntu Server 22.04,32,4,Operations,staging,Liliana Meléndez Antúnez
+srv-management-0643,10.25.159.123,a0:64:09:11:a2:2b,Windows Server 2012,16,16,Management,production,Graciano Luna Quiroga
+srv-it-0644,10.43.23.69,50:35:62:f0:f0:76,Ubuntu Server 22.04,32,2,IT,production,Eli Expósito
+srv-finance-0645,10.0.45.167,3c:ef:29:64:64:fc,Windows Server 2019,8,4,Finance,staging,Hipólito Lamas Martín
+srv-management-0646,10.123.20.14,2e:d9:3e:30:cd:d6,Debian 12,2,4,Management,staging,Isabela Cabezas Nadal
+srv-security-0647,10.79.49.84,86:b0:b7:23:85:e3,Windows Server 2016,2,4,Security,development,María Pilar del Fajardo
+srv-finance-0648,10.106.105.58,08:b6:56:c9:cf:1e,Windows Server 2022,4,16,Finance,testing,Violeta de Medina
+srv-it-0649,10.198.157.19,0e:85:55:ad:cf:69,Windows Server 2012,8,4,IT,development,Paulina Montenegro Hervás
+srv-finance-0650,10.152.60.149,2e:d0:14:06:83:2e,Windows Server 2022,4,2,Finance,development,Martina Leocadia Diego Galván
+srv-it-0651,10.234.50.204,b6:69:62:44:e8:15,Rocky Linux 9,64,4,IT,staging,Vasco del Corbacho
+srv-it-0652,10.29.160.36,f8:99:fa:26:f6:6a,Ubuntu Server 24.04,64,16,IT,staging,Dulce Gomila Mascaró
+srv-management-0653,10.172.63.250,04:e1:01:56:42:68,Debian 12,32,2,Management,production,Pili Escalona
+srv-finance-0654,10.178.53.106,d8:e5:eb:24:79:80,Rocky Linux 9,32,8,Finance,testing,Kike del Mascaró
+srv-security-0655,10.47.201.36,3a:7d:e8:66:03:07,Rocky Linux 9,64,2,Security,testing,Berta Delia Santamaría Varela
+srv-operations-0656,10.203.23.194,e4:cf:2c:47:87:1c,Windows Server 2016,2,8,Operations,development,Ezequiel de Barceló
+srv-hr-0657,10.219.112.231,84:0c:f9:05:9d:8f,Rocky Linux 9,64,4,HR,staging,Nydia Meléndez Gascón
+srv-it-0658,10.237.53.128,56:9b:a2:6c:d2:26,Windows Server 2012,4,4,IT,staging,Desiderio Rubio-Santos
+srv-security-0659,10.179.110.99,c2:92:6c:e6:00:8f,Windows Server 2022,64,4,Security,development,Marisela Huertas
+srv-finance-0660,10.94.200.133,e4:a2:ed:79:d1:66,Ubuntu Server 22.04,64,4,Finance,staging,Eligio Palau Heredia
+srv-it-0661,10.186.73.252,0e:ff:fd:6e:6a:9c,Windows Server 2022,8,4,IT,production,Hector Jorge Vicente Molins
+srv-hr-0662,10.18.199.108,38:aa:2a:c0:9e:32,Ubuntu Server 24.04,2,2,HR,production,Abraham Oller Barceló
+srv-finance-0663,10.29.33.161,aa:73:7f:99:00:56,Windows Server 2012,4,16,Finance,testing,Apolinar Figueras Ferrán
+srv-operations-0664,10.4.109.25,f2:f0:ac:c1:84:4d,Ubuntu Server 22.04,4,16,Operations,staging,Jenny Anaya Bilbao
+srv-it-0665,10.6.87.172,58:ce:e8:ec:55:3f,Windows Server 2016,2,16,IT,production,Epifanio Cañas Carbonell
+srv-it-0666,10.12.4.122,de:5c:33:75:78:55,Windows Server 2016,2,4,IT,production,Rosendo Hoz Téllez
+srv-operations-0667,10.192.196.227,00:8a:5c:0b:d0:66,Ubuntu Server 24.04,2,4,Operations,testing,Nerea Beltrán-Cuenca
+srv-hr-0668,10.47.22.158,9a:ed:ba:fb:79:bd,Windows Server 2019,2,4,HR,testing,Áurea de Oliva
+srv-operations-0669,10.249.223.139,9a:c9:86:b4:f5:8a,Windows Server 2016,64,8,Operations,production,Felicidad Roura Pombo
+srv-it-0670,10.127.221.199,06:30:78:52:d0:f9,Debian 12,64,2,IT,staging,Ariel Torrent Donaire
+srv-development-0671,10.73.156.63,fa:1a:bb:c8:b3:4a,Windows Server 2012,4,16,Development,testing,Amaya Botella Checa
+srv-it-0672,10.69.92.37,92:88:f6:00:76:71,Debian 12,8,16,IT,production,Cayetano Raúl Peral Cifuentes
+srv-operations-0673,10.112.215.151,74:1b:f3:f5:b2:7a,Windows Server 2016,64,4,Operations,staging,Rosalina Bermúdez Galvez
+srv-hr-0674,10.61.85.205,02:27:83:37:39:d0,Rocky Linux 9,32,2,HR,development,Isabel del Diego
+srv-management-0675,10.118.123.157,98:46:9b:ee:b2:78,Windows Server 2012,32,2,Management,development,Eleuterio Porta Garmendia
+srv-development-0676,10.188.139.242,f8:7f:99:bf:f3:a6,Ubuntu Server 24.04,64,4,Development,staging,Tadeo Cuesta Sanchez
+srv-hr-0677,10.37.190.197,0a:e2:00:0b:5d:94,Windows Server 2012,64,16,HR,development,Celso Martorell Barceló
+srv-finance-0678,10.74.118.58,48:c0:9a:44:0f:5d,Rocky Linux 9,8,2,Finance,testing,Artemio Palomo Tirado
+srv-finance-0679,10.29.75.13,80:f0:ae:57:79:98,Windows Server 2012,8,4,Finance,production,Dalila Velasco-Lamas
+srv-management-0680,10.146.25.103,98:a6:a8:25:1c:0f,Windows Server 2019,8,2,Management,development,Pía Corral
+srv-management-0681,10.199.95.35,ec:d4:04:0e:6e:c6,Windows Server 2012,32,16,Management,testing,Angelita Amelia Miralles Duarte
+srv-security-0682,10.231.132.101,de:89:e0:22:d9:52,Windows Server 2022,32,8,Security,development,Cintia Sala Valero
+srv-hr-0683,10.22.150.222,50:22:ec:3b:54:36,Debian 12,16,4,HR,staging,Trinidad Llopis Alcalá
+srv-management-0684,10.26.191.114,56:41:b8:79:c5:04,Debian 12,2,2,Management,staging,Xiomara Ferrándiz Franco
+srv-operations-0685,10.106.249.229,60:84:aa:82:c3:84,Windows Server 2016,8,8,Operations,production,Rubén Garzón
+srv-management-0686,10.183.1.38,de:18:0c:19:10:e0,Windows Server 2019,8,8,Management,staging,Lalo Mosquera Bustamante
+srv-development-0687,10.67.24.20,bc:66:0c:ef:e7:6b,Windows Server 2019,16,2,Development,staging,Albina Pérez Bustos
+srv-operations-0688,10.106.139.28,2e:ad:99:6c:0f:cc,Ubuntu Server 24.04,8,8,Operations,development,Ani Aramburu-Barón
+srv-operations-0689,10.128.231.155,ca:10:dc:96:2c:a1,Rocky Linux 9,64,4,Operations,testing,Jacobo Cal Morante
+srv-operations-0690,10.232.42.239,68:59:0f:df:21:e4,Windows Server 2012,16,4,Operations,testing,Alejo Valencia Jove
+srv-development-0691,10.205.190.6,a8:4d:f6:9f:c9:ea,Windows Server 2016,32,16,Development,production,Vidal Paredes Llabrés
+srv-development-0692,10.200.163.184,92:a9:e4:50:67:7c,Ubuntu Server 24.04,8,2,Development,production,Camilo Morante Pinto
+srv-finance-0693,10.131.60.201,de:ca:68:c1:bd:ad,Windows Server 2016,64,4,Finance,staging,Juan Manuel Fortuny Carrera
+srv-hr-0694,10.0.171.143,92:85:5e:bb:9c:19,Debian 12,16,4,HR,testing,Irma Rosa Montalbán Grau
+srv-it-0695,10.180.130.8,6a:20:4d:48:23:e3,Windows Server 2016,32,4,IT,testing,Bernardo Almagro Varela
+srv-management-0696,10.164.42.16,6c:50:dc:c2:88:38,Rocky Linux 9,8,2,Management,staging,Lilia Sáez-Verdejo
+srv-operations-0697,10.242.93.218,36:79:4f:6b:fc:4f,Ubuntu Server 24.04,32,4,Operations,testing,Pancho Agapito Cabello Castejón
+srv-finance-0698,10.226.125.144,bc:e6:c7:b6:e3:08,Rocky Linux 9,32,16,Finance,development,Noé de Manjón
+srv-hr-0699,10.254.93.9,a6:48:81:56:e0:91,Ubuntu Server 22.04,32,16,HR,production,Victoria Bello
+srv-finance-0700,10.52.13.201,60:59:24:03:8a:21,Ubuntu Server 24.04,16,2,Finance,production,Cándida Berta Escudero Jove
+srv-security-0701,10.83.166.54,c8:d4:19:c2:cf:a4,Windows Server 2016,4,8,Security,production,Felix Teruel-Goñi
+srv-security-0702,10.181.55.214,78:4b:a6:87:0a:ed,Windows Server 2022,32,8,Security,testing,Ignacia Paz Toro Jurado
+srv-finance-0703,10.253.76.85,2e:21:ce:a5:47:69,Debian 12,64,16,Finance,production,Ariadna Jurado
+srv-it-0704,10.120.60.141,50:f2:6b:9a:fa:da,Windows Server 2019,64,16,IT,development,Marta Hervás
+srv-management-0705,10.87.224.62,48:df:19:f1:d6:bf,Debian 12,32,8,Management,production,Lisandro Alvarez Pizarro
+srv-operations-0706,10.202.135.162,42:c8:00:24:68:a7,Windows Server 2012,32,8,Operations,testing,Jordán Donoso Cabello
+srv-security-0707,10.60.132.85,84:d2:bb:33:fb:b8,Ubuntu Server 22.04,4,4,Security,staging,Marino Tudela Oliveras
+srv-security-0708,10.34.212.195,40:a1:e1:eb:58:ad,Windows Server 2022,16,8,Security,testing,Celestino Mora Flor
+srv-security-0709,10.24.6.248,80:a3:0f:ee:98:7a,Windows Server 2012,8,16,Security,staging,Carlito Montero Nuñez
+srv-it-0710,10.64.131.172,8e:20:af:45:11:2c,Ubuntu Server 22.04,8,8,IT,staging,Xiomara Caro Haro
+srv-management-0711,10.212.68.94,38:d0:f8:7b:d5:a0,Windows Server 2016,16,2,Management,development,Ángel Valbuena Soler
+srv-finance-0712,10.232.11.33,56:e8:51:a2:07:da,Windows Server 2016,32,8,Finance,testing,Amalia Ruiz-Martín
+srv-development-0713,10.61.2.83,88:13:31:92:08:db,Windows Server 2016,16,4,Development,staging,Mariano Niño Solano
+srv-development-0714,10.133.217.215,56:fa:d3:2b:94:11,Windows Server 2016,8,2,Development,staging,Régulo Agustí Marquez
+srv-hr-0715,10.56.112.105,e2:19:b5:a1:05:3d,Ubuntu Server 22.04,16,2,HR,testing,Ezequiel Ibarra Dominguez
+srv-development-0716,10.111.235.86,aa:e8:e9:aa:e3:5a,Windows Server 2016,8,16,Development,development,Luna Ferrández Trillo
+srv-management-0717,10.85.249.185,16:b0:5b:95:21:c3,Ubuntu Server 22.04,32,16,Management,staging,Lucho Palomo Bastida
+srv-hr-0718,10.90.40.221,c2:a0:37:a7:74:9c,Rocky Linux 9,4,8,HR,development,Tito del Blázquez
+srv-operations-0719,10.187.246.222,06:71:6f:76:cf:0a,Windows Server 2022,8,16,Operations,development,Remedios Magdalena Belmonte Varela
+srv-operations-0720,10.63.1.68,3a:98:3b:cc:5f:d1,Ubuntu Server 22.04,4,4,Operations,development,Gerardo Rubio Quintana
+srv-development-0721,10.5.197.238,0e:a8:ef:6a:f3:51,Debian 12,16,4,Development,development,Flor Trujillo-Rius
+srv-it-0722,10.69.222.192,fc:77:99:9a:9c:45,Ubuntu Server 22.04,64,8,IT,development,Onofre Ugarte
+srv-hr-0723,10.235.23.127,3e:35:42:c2:0b:29,Windows Server 2019,2,16,HR,staging,Sara Mínguez Uribe
+srv-management-0724,10.99.175.215,ec:33:68:16:9d:ce,Debian 12,8,4,Management,staging,Noé Goicoechea Carro
+srv-operations-0725,10.113.180.50,c2:e4:92:dc:67:61,Windows Server 2016,8,4,Operations,staging,Adalberto Coronado Osuna
+srv-operations-0726,10.215.212.1,7a:cf:6b:7a:19:af,Windows Server 2019,4,2,Operations,production,Rafa Alcalde-Carrillo
+srv-development-0727,10.69.112.94,fc:ff:f3:f4:ea:af,Rocky Linux 9,4,4,Development,production,Ernesto Joel Villar Perea
+srv-hr-0728,10.177.131.145,2c:07:f5:2a:b5:dc,Ubuntu Server 24.04,16,4,HR,production,Segismundo Dominguez Peiró
+srv-operations-0729,10.251.11.121,06:de:75:00:e5:0b,Debian 12,16,4,Operations,production,Angelita Planas-Torralba
+srv-finance-0730,10.186.46.221,4c:6d:7c:81:59:cf,Rocky Linux 9,16,2,Finance,staging,Montserrat Domingo Calzada
+srv-operations-0731,10.1.171.166,66:45:94:6e:a6:8b,Ubuntu Server 22.04,4,2,Operations,development,Anselma Lobato Hernandez
+srv-development-0732,10.228.139.18,22:9a:91:4a:70:ba,Windows Server 2022,32,2,Development,development,Plácido Pla Carreño
+srv-operations-0733,10.30.244.71,b0:d5:14:fb:06:1e,Ubuntu Server 24.04,64,8,Operations,testing,Miriam Esparza Abad
+srv-operations-0734,10.58.11.74,60:e9:9b:b1:5a:4b,Windows Server 2012,16,4,Operations,development,Natalia Barrena Beltran
+srv-development-0735,10.65.106.10,4c:43:13:33:e7:d9,Ubuntu Server 22.04,4,8,Development,production,Úrsula Lumbreras-Serrano
+srv-development-0736,10.197.81.213,2a:23:a8:33:2f:d5,Ubuntu Server 22.04,32,2,Development,development,Eduardo Jove Cervera
+srv-it-0737,10.154.79.241,50:c8:98:8b:3a:be,Ubuntu Server 24.04,4,8,IT,testing,René Giralt Cabanillas
+srv-operations-0738,10.9.166.56,76:15:e0:4e:7e:c2,Rocky Linux 9,2,4,Operations,development,Julieta Zorrilla Antúnez
+srv-finance-0739,10.253.24.150,80:11:f3:ed:39:c2,Rocky Linux 9,64,16,Finance,staging,Adelardo Sosa
+srv-management-0740,10.63.102.202,fa:52:69:ca:0e:16,Windows Server 2022,64,2,Management,production,Leticia Oliveras Barón
+srv-security-0741,10.244.143.175,e8:9c:7b:12:33:1f,Ubuntu Server 22.04,2,16,Security,production,Norberto Royo Barriga
+srv-development-0742,10.3.166.236,86:43:53:79:b8:af,Windows Server 2012,32,4,Development,testing,Eulalia Cáceres Collado
+srv-development-0743,10.255.56.20,b6:8f:7a:37:a2:39,Windows Server 2022,16,4,Development,production,Benito Falcón Perelló
+srv-it-0744,10.147.147.83,f6:db:7d:b8:69:b7,Windows Server 2022,16,16,IT,staging,Leocadia Guardia
+srv-hr-0745,10.193.248.132,b4:fc:e2:78:d5:93,Windows Server 2022,4,2,HR,staging,Emiliana Blanca
+srv-finance-0746,10.27.6.216,8e:aa:a6:9f:30:06,Rocky Linux 9,2,16,Finance,staging,Eutimio Vizcaíno
+srv-finance-0747,10.220.22.253,ce:ae:48:1e:40:ea,Windows Server 2022,8,8,Finance,testing,Gilberto Casanova Sáenz
+srv-finance-0748,10.147.34.220,44:32:b0:5e:ab:9e,Ubuntu Server 22.04,32,2,Finance,testing,Sigfrido Fernandez Aroca
+srv-finance-0749,10.133.83.245,a0:31:b0:83:8a:e8,Windows Server 2016,2,16,Finance,production,Azucena Camps Hidalgo
+srv-development-0750,10.30.22.202,98:c7:48:ff:b5:0e,Windows Server 2016,4,4,Development,development,Samanta Revilla Esteve
+srv-development-0751,10.60.255.143,78:be:b8:82:7b:a6,Debian 12,64,16,Development,testing,Flor Rosales Cerro
+srv-management-0752,10.155.124.194,a8:ae:00:e0:53:ee,Windows Server 2016,16,2,Management,production,Evangelina Peinado Huguet
+srv-management-0753,10.219.144.58,26:c5:c8:eb:aa:38,Rocky Linux 9,2,16,Management,development,Amparo Nicolás Barberá
+srv-operations-0754,10.129.139.10,ee:3e:95:9b:ba:4c,Windows Server 2016,8,16,Operations,production,Máximo Corral Goñi
+srv-management-0755,10.146.37.55,62:34:f6:35:62:2c,Debian 12,32,16,Management,production,Pili Rios-Lara
+srv-operations-0756,10.210.212.118,e4:bc:5d:c9:ad:8d,Rocky Linux 9,8,2,Operations,development,Nicodemo Collado Valenzuela
+srv-security-0757,10.17.117.134,b6:d6:b1:ae:05:32,Windows Server 2016,4,16,Security,development,Loreto Calatayud Cid
+srv-management-0758,10.114.7.194,04:78:28:d9:21:df,Windows Server 2019,32,2,Management,testing,Valentín Dávila Lastra
+srv-finance-0759,10.10.146.187,56:c5:e1:c2:95:45,Debian 12,16,2,Finance,development,Eliseo Carballo Anaya
+srv-operations-0760,10.127.182.90,b6:f0:8f:d9:2a:1c,Windows Server 2022,64,8,Operations,development,Ileana Valverde Raya
+srv-it-0761,10.40.104.195,4c:22:00:61:5f:52,Rocky Linux 9,32,2,IT,testing,Adora Escolano Domínguez
+srv-finance-0762,10.188.165.68,06:34:c4:64:74:54,Windows Server 2019,8,2,Finance,staging,Eugenia Estela Agustín Araujo
+srv-operations-0763,10.149.231.21,4e:63:86:da:e0:ed,Ubuntu Server 22.04,4,8,Operations,development,Débora Casas Angulo
+srv-it-0764,10.84.229.231,bc:86:fa:a9:bf:8d,Windows Server 2012,32,16,IT,testing,Leonel Díez Echevarría
+srv-management-0765,10.18.57.172,06:a0:3e:6e:82:a2,Ubuntu Server 24.04,8,16,Management,staging,Juan Francisco Franch Rivera
+srv-operations-0766,10.16.23.117,00:20:30:dc:68:94,Debian 12,4,2,Operations,staging,Remigio Roselló
+srv-development-0767,10.185.79.247,92:55:f9:c8:69:22,Windows Server 2019,8,2,Development,testing,Cándida Baquero
+srv-management-0768,10.193.83.219,e0:c1:66:ca:35:a8,Windows Server 2022,64,4,Management,testing,Morena Ros Ramón
+srv-operations-0769,10.195.67.165,7a:29:bf:59:6c:c5,Windows Server 2012,64,8,Operations,production,Gloria Tolosa Cáceres
+srv-development-0770,10.69.138.131,66:39:b5:75:66:39,Windows Server 2022,16,4,Development,testing,Felicidad Bueno Ferreras
+srv-development-0771,10.160.159.53,3a:36:d3:86:cb:5e,Windows Server 2019,64,16,Development,production,Yéssica del Vallejo
+srv-it-0772,10.89.94.44,d4:a1:af:46:51:93,Windows Server 2016,32,16,IT,development,Che Correa Castells
+srv-operations-0773,10.84.113.87,c6:0b:27:88:4b:39,Windows Server 2016,4,2,Operations,staging,Eric Frutos-Bonet
+srv-development-0774,10.168.21.125,ee:96:82:ca:a9:81,Ubuntu Server 24.04,4,4,Development,testing,Máxima Nadia Luque Boix
+srv-finance-0775,10.247.182.237,80:d3:d6:e9:3f:cf,Rocky Linux 9,4,8,Finance,development,Clemente Farré Higueras
+srv-security-0776,10.192.87.66,46:95:5b:37:d0:dc,Windows Server 2022,16,16,Security,production,Rosalía Llano Llorens
+srv-it-0777,10.97.94.157,5c:32:c9:b6:a2:66,Windows Server 2012,8,4,IT,staging,Fermín Naranjo Palma
+srv-management-0778,10.167.1.80,96:19:0d:79:48:d3,Ubuntu Server 24.04,32,2,Management,testing,Teodosio Llamas Puerta
+srv-development-0779,10.176.64.114,0e:ca:37:38:f8:6b,Ubuntu Server 22.04,16,4,Development,development,Casandra Barrera Villegas
+srv-operations-0780,10.22.68.137,2e:2f:03:d3:9e:01,Ubuntu Server 22.04,4,8,Operations,production,Mónica de Portillo
+srv-operations-0781,10.161.113.59,90:53:0e:8d:b2:9a,Rocky Linux 9,32,4,Operations,testing,Pepe Castellanos Burgos
+srv-security-0782,10.48.20.137,8a:21:9a:f4:44:d2,Debian 12,16,8,Security,staging,Nuria Constanza Belmonte Sola
+srv-operations-0783,10.89.18.91,76:d3:41:33:4e:ff,Ubuntu Server 22.04,16,8,Operations,development,Dulce Lorenzo Leon
+srv-finance-0784,10.85.34.48,22:09:6c:58:92:54,Windows Server 2012,2,4,Finance,production,Rosario Castañeda Correa
+srv-management-0785,10.70.208.103,ce:21:e5:84:38:5a,Rocky Linux 9,64,4,Management,testing,Olimpia Rivas Cañellas
+srv-finance-0786,10.145.178.29,ca:18:58:c0:f0:81,Windows Server 2016,4,4,Finance,development,Virgilio Garriga-Cepeda
+srv-operations-0787,10.102.71.17,24:cd:21:25:34:85,Debian 12,32,16,Operations,production,Magdalena Cerro Navas
+srv-operations-0788,10.150.74.96,4c:4c:df:3a:cf:57,Ubuntu Server 24.04,16,16,Operations,staging,Julián Carbajo Gárate
+srv-it-0789,10.179.160.25,0e:1e:43:0a:0f:4c,Debian 12,8,16,IT,staging,Florentino del Fajardo
+srv-finance-0790,10.69.177.77,ee:94:3e:a1:a7:22,Ubuntu Server 22.04,4,4,Finance,testing,Rosa María Rius Tello
+srv-management-0791,10.216.242.32,76:86:01:11:b5:3e,Ubuntu Server 22.04,8,4,Management,staging,Aurelia Barrios Granados
+srv-security-0792,10.93.159.28,34:30:79:5c:da:95,Windows Server 2016,8,4,Security,testing,Claudio Hernando Busquets
+srv-finance-0793,10.71.120.196,8a:ce:7e:1e:0a:c7,Windows Server 2019,2,4,Finance,testing,Galo Casemiro Rivero Mayol
+srv-development-0794,10.163.108.223,1e:7b:7d:cd:34:41,Windows Server 2019,32,16,Development,staging,Gil Telmo Baeza Blazquez
+srv-management-0795,10.158.43.115,c2:d7:eb:88:0d:6b,Windows Server 2012,4,16,Management,production,Fortunato Verdú Escalona
+srv-development-0796,10.68.157.71,b4:a9:1b:c2:58:e2,Windows Server 2016,16,2,Development,testing,Carmela Zapata
+srv-development-0797,10.161.226.107,d4:ec:cb:7d:81:ee,Ubuntu Server 22.04,8,2,Development,development,Eric Josep Ibáñez Tamayo
+srv-management-0798,10.70.28.47,64:ed:94:27:1f:cd,Windows Server 2019,32,4,Management,testing,Carmina Bayo Costa
+srv-security-0799,10.75.182.33,38:40:49:da:ad:bd,Windows Server 2022,8,4,Security,staging,María Barco
+srv-finance-0800,10.227.217.196,36:92:ae:72:cd:19,Ubuntu Server 22.04,32,2,Finance,staging,Ricardo Franch Chico
+srv-security-0801,10.169.236.4,1c:b8:c9:66:a1:a3,Windows Server 2016,32,8,Security,production,Regina Priego
+srv-hr-0802,10.153.202.45,36:5c:3b:58:50:00,Debian 12,32,8,HR,development,Marciano Suarez-Niño
+srv-management-0803,10.30.5.85,9a:8b:c5:25:b2:fd,Windows Server 2019,32,4,Management,staging,Chucho Gracia Quintero
+srv-it-0804,10.205.159.188,e2:53:5c:18:13:79,Windows Server 2012,2,4,IT,production,Máximo Cuevas Farré
+srv-security-0805,10.225.180.175,5a:f9:08:66:35:30,Windows Server 2022,64,16,Security,staging,Dionisio Ferrero-Cervantes
+srv-finance-0806,10.22.187.208,32:8a:e0:bc:06:43,Windows Server 2016,8,16,Finance,testing,Carmelita Asensio
+srv-development-0807,10.20.230.224,84:c7:56:b4:f4:16,Windows Server 2022,64,2,Development,testing,Augusto Vallejo Carbonell
+srv-hr-0808,10.44.152.120,e0:c1:e7:14:85:11,Rocky Linux 9,16,16,HR,production,Paula Quintana
+srv-security-0809,10.92.148.118,32:af:e6:52:69:0a,Ubuntu Server 22.04,16,4,Security,development,Estrella Posada Moles
+srv-operations-0810,10.199.17.46,be:f5:7e:8a:28:e5,Ubuntu Server 24.04,16,16,Operations,production,Emelina Bonet Pons
+srv-management-0811,10.184.172.140,e0:9e:e7:a6:43:e0,Ubuntu Server 22.04,8,2,Management,development,Águeda Saldaña Madrid
+srv-finance-0812,10.168.67.90,8c:74:d3:4e:bd:9a,Debian 12,64,2,Finance,staging,Amada Mendizábal
+srv-development-0813,10.189.168.94,3a:e5:e6:21:0d:b3,Windows Server 2019,16,8,Development,testing,Leonardo Juliá Posada
+srv-security-0814,10.103.92.183,2a:18:fe:b3:fd:1a,Windows Server 2016,8,8,Security,staging,Carmelita Moll Torrent
+srv-security-0815,10.71.190.92,78:20:41:f2:5b:d2,Windows Server 2016,16,16,Security,staging,Eduardo Andreu-Rivera
+srv-finance-0816,10.0.137.131,1a:96:c3:ec:96:82,Windows Server 2019,2,8,Finance,development,Pepita Pacheco-Melero
+srv-operations-0817,10.120.24.82,b8:f6:d5:8f:c9:c4,Windows Server 2022,8,4,Operations,testing,Nilo Santiago Espada
+srv-management-0818,10.78.105.79,e8:94:1c:a8:11:a8,Debian 12,4,16,Management,development,Octavio Torrent Quintana
+srv-finance-0819,10.233.51.26,5e:c8:ae:4d:30:9f,Rocky Linux 9,32,2,Finance,development,Sonia Marco Velasco
+srv-it-0820,10.20.240.2,06:d9:41:ef:cf:d6,Ubuntu Server 24.04,64,2,IT,production,María Jesús Martí-Canet
+srv-development-0821,10.100.41.84,32:2e:e3:78:1c:22,Windows Server 2019,64,8,Development,testing,Álvaro del Catalán
+srv-management-0822,10.118.208.212,f4:79:9f:86:5b:98,Debian 12,2,4,Management,staging,Anita Posada Valero
+srv-finance-0823,10.4.213.61,04:53:76:78:6b:f8,Windows Server 2019,8,4,Finance,staging,Víctor Pérez
+srv-development-0824,10.103.122.219,50:0a:53:b8:37:db,Windows Server 2019,16,4,Development,testing,Valentina Garrido Coloma
+srv-operations-0825,10.144.146.37,d0:ec:46:90:c8:f2,Debian 12,64,2,Operations,staging,Tamara del Vargas
+srv-hr-0826,10.193.107.37,10:0f:d7:86:72:ab,Ubuntu Server 22.04,4,4,HR,production,Anita Jódar Doménech
+srv-development-0827,10.225.208.20,08:67:d9:bb:37:43,Ubuntu Server 24.04,32,4,Development,development,Jacinta Castillo Mur
+srv-it-0828,10.60.60.146,a0:cb:27:26:27:b1,Ubuntu Server 24.04,8,16,IT,development,Josué Oliva Hervia
+srv-finance-0829,10.169.134.194,7e:a4:96:6c:c4:55,Windows Server 2019,4,2,Finance,staging,Xavier Efraín Ureña Ariza
+srv-development-0830,10.229.19.153,ea:b8:5d:77:f1:d5,Rocky Linux 9,4,16,Development,development,Octavia Huertas Serna
+srv-operations-0831,10.248.10.229,0e:03:50:6a:65:65,Ubuntu Server 24.04,4,2,Operations,production,Elisa del Hurtado
+srv-development-0832,10.112.150.37,56:cd:9a:9d:a7:8d,Ubuntu Server 24.04,4,2,Development,development,Gabino Ferrández Lloret
+srv-security-0833,10.89.53.147,12:d0:53:ec:94:8f,Windows Server 2016,16,2,Security,development,Calista Emma Gaya Aller
+srv-development-0834,10.63.93.94,c2:0a:e5:4f:03:40,Ubuntu Server 24.04,32,4,Development,production,Jose Angel Blazquez Iborra
+srv-operations-0835,10.158.88.147,ba:f5:5e:99:38:97,Ubuntu Server 22.04,32,4,Operations,production,Concha de Folch
+srv-finance-0836,10.56.94.11,a0:5c:1f:ce:6a:9d,Windows Server 2016,2,2,Finance,staging,Gabriela Bernad
+srv-finance-0837,10.225.229.218,2c:c8:b9:91:61:fc,Windows Server 2019,64,8,Finance,production,Lorena Carrasco
+srv-finance-0838,10.45.224.193,52:5e:bf:10:56:44,Windows Server 2019,4,8,Finance,staging,Matilde Garmendia
+srv-management-0839,10.21.193.244,6e:86:f7:b9:3d:26,Debian 12,16,8,Management,development,Ambrosio Martorell
+srv-development-0840,10.36.104.48,fc:fa:49:12:f6:65,Windows Server 2012,64,4,Development,development,Charo del Ojeda
+srv-it-0841,10.206.215.121,e4:b3:3f:8d:9d:75,Ubuntu Server 24.04,16,4,IT,production,Amando Francisco Mascaró Nadal
+srv-it-0842,10.51.205.188,36:18:39:15:be:39,Ubuntu Server 24.04,32,8,IT,testing,Maxi de Esparza
+srv-it-0843,10.125.179.10,d4:ce:34:59:94:0a,Debian 12,2,16,IT,development,Amancio Piña Ballester
+srv-hr-0844,10.173.247.108,cc:b4:77:fb:66:1c,Windows Server 2016,16,2,HR,staging,Esteban Huguet Borja
+srv-finance-0845,10.236.95.143,ce:c9:6f:e5:38:f5,Windows Server 2012,4,2,Finance,development,Evangelina Cerdá Vizcaíno
+srv-security-0846,10.252.167.148,dc:83:4e:3c:59:c8,Windows Server 2016,4,16,Security,development,Anacleto Noguera Cobos
+srv-security-0847,10.158.203.192,c8:cd:03:9f:07:10,Windows Server 2016,2,8,Security,testing,Eliseo Aguiló-Palau
+srv-development-0848,10.77.2.166,b4:3e:5a:ec:a7:b3,Ubuntu Server 22.04,2,4,Development,production,Remedios Pi Fonseca
+srv-management-0849,10.84.114.140,56:64:6b:91:78:02,Rocky Linux 9,8,2,Management,testing,Herberto Peral Antúnez
+srv-finance-0850,10.53.203.19,62:ca:98:16:13:e6,Windows Server 2012,2,8,Finance,development,Catalina Girona
+srv-management-0851,10.33.99.110,66:5d:c5:1e:39:80,Windows Server 2016,32,4,Management,production,Lourdes Sabater-Madrigal
+srv-hr-0852,10.224.223.238,ea:93:a9:88:4e:1c,Ubuntu Server 24.04,2,8,HR,staging,Julio César Castell
+srv-finance-0853,10.233.85.153,b0:3f:1c:9d:8c:36,Rocky Linux 9,32,2,Finance,production,Encarna Tovar Esteban
+srv-operations-0854,10.53.5.167,22:1d:9f:f6:9c:43,Rocky Linux 9,8,8,Operations,development,Trinidad Manjón Cadenas
+srv-development-0855,10.72.105.45,9e:16:a7:dc:53:2f,Windows Server 2019,8,4,Development,development,Chus Hoz Palomo
+srv-hr-0856,10.55.146.161,b6:9c:d4:94:49:a2,Windows Server 2016,8,8,HR,staging,Cristóbal Moreno Carmona
+srv-hr-0857,10.165.185.28,16:ed:62:6d:65:ce,Windows Server 2016,2,8,HR,staging,Quique Dani Morán Dávila
+srv-management-0858,10.250.16.185,c2:50:03:1c:0d:82,Rocky Linux 9,4,2,Management,production,Ricarda Tomas-Morata
+srv-finance-0859,10.53.28.80,84:9e:f4:2d:3d:01,Debian 12,32,4,Finance,production,María Cristina Comas Angulo
+srv-hr-0860,10.52.44.12,44:77:15:84:9f:1b,Windows Server 2016,32,4,HR,production,Antonia Quintana
+srv-development-0861,10.81.105.78,52:db:c9:c4:43:a9,Rocky Linux 9,2,2,Development,staging,Obdulia Coello Camacho
+srv-it-0862,10.251.178.222,90:44:d3:92:1b:9d,Windows Server 2012,64,2,IT,staging,Guadalupe Mendez-Lloret
+srv-finance-0863,10.254.51.204,88:43:3c:39:9e:9e,Ubuntu Server 22.04,4,4,Finance,staging,Amílcar Grau Ferrándiz
+srv-it-0864,10.184.90.86,0c:a2:c8:b4:dd:4f,Ubuntu Server 24.04,64,16,IT,testing,Flor Ramírez Pou
+srv-it-0865,10.202.55.93,7a:75:60:31:5b:6d,Debian 12,2,16,IT,testing,Wilfredo Barral Acuña
+srv-operations-0866,10.115.26.214,60:9d:d4:77:ef:a0,Ubuntu Server 22.04,8,16,Operations,development,Carolina Reyes Llanos
+srv-management-0867,10.254.72.203,54:9f:d2:bd:b2:b5,Windows Server 2012,8,2,Management,production,Jennifer Iris Bosch Gelabert
+srv-management-0868,10.124.23.152,04:fd:8d:b5:23:fc,Windows Server 2022,32,8,Management,development,Otilia Isern Estrada
+srv-development-0869,10.108.206.173,7c:dd:fe:cc:b2:d1,Windows Server 2016,32,2,Development,development,Soraya Barrena Manso
+srv-finance-0870,10.116.130.25,30:14:12:8c:bf:a6,Ubuntu Server 22.04,4,4,Finance,production,María Milagros Segovia Castro
+srv-it-0871,10.244.242.120,44:be:6c:7c:3c:40,Windows Server 2016,16,2,IT,development,Damián Agustín
+srv-management-0872,10.0.121.91,4a:c1:86:14:d7:2f,Debian 12,4,8,Management,production,Ovidio Heras Ordóñez
+srv-management-0873,10.183.91.248,46:e7:43:14:e3:48,Windows Server 2016,2,4,Management,production,Anacleto Fajardo Paredes
+srv-hr-0874,10.72.182.118,62:87:bf:8e:eb:4f,Windows Server 2016,32,2,HR,staging,Gustavo Sanmiguel Ayllón
+srv-it-0875,10.159.211.76,68:3c:19:e8:44:f0,Windows Server 2022,64,2,IT,development,Mayte Ávila Borrego
+srv-finance-0876,10.64.151.104,6e:0e:8f:1f:68:bc,Ubuntu Server 24.04,4,16,Finance,development,Renata del Páez
+srv-management-0877,10.87.1.69,2c:21:09:c7:1f:47,Windows Server 2019,32,2,Management,staging,Flor del Pla
+srv-operations-0878,10.92.56.133,9a:80:66:ee:f5:06,Windows Server 2012,8,4,Operations,production,Donato Cabo Pavón
+srv-hr-0879,10.60.168.174,5e:6c:1e:10:e2:b5,Rocky Linux 9,2,2,HR,production,Filomena Luz Carlos
+srv-hr-0880,10.221.40.147,ae:04:90:c5:a3:aa,Ubuntu Server 24.04,16,16,HR,development,Matilde Heredia Corral
+srv-management-0881,10.94.183.81,1c:0f:c6:84:d8:4d,Windows Server 2019,16,2,Management,staging,Azucena Cabeza Alfonso
+srv-it-0882,10.3.122.220,96:ab:6f:70:a2:2c,Ubuntu Server 22.04,4,2,IT,development,Máxima Tena Mayoral
+srv-development-0883,10.75.6.205,c0:e0:93:68:dd:6b,Windows Server 2019,16,2,Development,development,Rosa María del Serra
+srv-it-0884,10.165.163.75,b8:6d:46:1b:e1:54,Rocky Linux 9,32,16,IT,production,Isa Elorza
+srv-management-0885,10.232.148.129,f4:71:bf:6e:61:e1,Windows Server 2012,8,4,Management,production,Carmelo Sureda Camacho
+srv-security-0886,10.162.220.114,02:ef:24:75:4c:68,Debian 12,8,16,Security,staging,Marisa Guzman Prieto
+srv-finance-0887,10.26.43.36,a2:7d:3e:47:0a:47,Windows Server 2016,32,2,Finance,development,Édgar de Conde
+srv-development-0888,10.218.235.217,b8:f4:cb:4e:fe:7a,Windows Server 2022,64,4,Development,staging,Edelmiro Barbero Pol
+srv-development-0889,10.235.152.210,bc:a7:1c:3f:05:b3,Windows Server 2019,32,4,Development,testing,Salvador Sanmartín-Martinez
+srv-finance-0890,10.36.117.43,5a:51:30:94:a6:1e,Windows Server 2019,32,2,Finance,staging,Jovita Ripoll
+srv-development-0891,10.253.31.201,2c:2b:ec:82:d2:24,Rocky Linux 9,8,4,Development,development,Manuelita Agustín Bastida
+srv-it-0892,10.20.195.253,f4:1e:2b:a7:ec:50,Windows Server 2022,16,4,IT,development,Julio Borja-Egea
+srv-development-0893,10.146.139.49,74:ee:80:9b:4e:37,Windows Server 2022,16,2,Development,testing,Diana Poza
+srv-operations-0894,10.63.181.159,32:24:c2:ba:7b:2e,Ubuntu Server 22.04,64,4,Operations,production,René Bilbao Morillo
+srv-management-0895,10.201.29.207,66:fc:62:84:09:14,Windows Server 2019,16,8,Management,testing,Germán Adalberto Zaragoza Corbacho
+srv-hr-0896,10.67.15.188,2e:c1:12:0f:ae:60,Ubuntu Server 24.04,2,8,HR,testing,Magdalena Borrell Pozuelo
+srv-security-0897,10.146.225.141,d6:82:bf:ad:c8:c0,Rocky Linux 9,16,8,Security,development,Telmo Ale Olivé Iglesias
+srv-development-0898,10.208.164.119,84:19:24:c4:62:64,Rocky Linux 9,2,8,Development,testing,Amada Miguela Revilla Giner
+srv-security-0899,10.130.63.211,3a:1c:66:35:30:61,Ubuntu Server 24.04,32,4,Security,development,Severo Pelayo Viñas
+srv-hr-0900,10.184.227.136,16:c3:2f:0c:ee:ad,Windows Server 2019,32,16,HR,development,Cristóbal Cáceres Cervera
+srv-finance-0901,10.185.158.164,96:91:8b:84:2f:95,Windows Server 2022,16,16,Finance,staging,Josefina Benito Ayuso
+srv-management-0902,10.238.124.157,02:d7:af:03:0b:54,Windows Server 2012,32,4,Management,staging,Javi de Ruano
+srv-operations-0903,10.199.108.149,26:59:e9:5c:e9:74,Windows Server 2012,4,4,Operations,production,Jordana Ayala-Alba
+srv-finance-0904,10.210.121.201,a0:66:55:9e:15:26,Windows Server 2016,16,2,Finance,staging,Jesusa Fernandez-Iriarte
+srv-finance-0905,10.128.147.220,4e:03:23:0e:4c:e7,Windows Server 2022,16,8,Finance,testing,Noemí Macías Marin
+srv-development-0906,10.94.229.219,42:d6:36:af:63:40,Debian 12,8,4,Development,development,Cándida Cabezas Lasa
+srv-operations-0907,10.3.222.14,10:4f:ad:80:04:a3,Windows Server 2022,16,8,Operations,production,Pablo Benavent Rosales
+srv-it-0908,10.127.0.134,ee:05:34:b7:32:2a,Windows Server 2016,32,8,IT,production,Mariano del Oliveras
+srv-operations-0909,10.197.214.57,5c:5c:fd:78:a9:c4,Windows Server 2022,64,16,Operations,development,Diego Dalmau Hoz
+srv-finance-0910,10.153.143.237,b6:4b:57:19:97:d8,Windows Server 2012,8,16,Finance,testing,Azahara Ojeda Roman
+srv-management-0911,10.23.62.155,7e:37:0e:64:85:7a,Windows Server 2022,2,8,Management,development,Brunilda Sanchez Rodrigo
+srv-it-0912,10.197.138.219,5c:cf:5d:4b:9c:00,Windows Server 2022,16,4,IT,testing,Leandro Dalmau Cañete
+srv-finance-0913,10.139.50.176,20:d2:d5:48:3b:d9,Windows Server 2019,32,2,Finance,production,Bernardo Aller Expósito
+srv-security-0914,10.46.214.34,7e:8a:9c:f0:aa:71,Windows Server 2012,4,2,Security,testing,Edelmira Pérez
+srv-security-0915,10.146.239.72,e8:10:d3:c7:4f:95,Rocky Linux 9,2,16,Security,production,Duilio Higueras Martín
+srv-development-0916,10.92.208.71,72:93:b8:b6:d1:5f,Windows Server 2016,32,2,Development,production,Rogelio Frías Paredes
+srv-finance-0917,10.251.149.135,26:61:43:5b:8f:75,Ubuntu Server 22.04,16,16,Finance,development,Casandra Cervera Casals
+srv-operations-0918,10.232.22.190,da:08:32:ed:1f:da,Rocky Linux 9,64,4,Operations,staging,Jordana Luque Torre
+srv-management-0919,10.73.188.201,be:94:1d:bd:24:32,Windows Server 2012,32,4,Management,testing,Alfredo del Goñi
+srv-hr-0920,10.96.57.31,62:7f:2e:7b:5f:c2,Windows Server 2012,8,8,HR,production,Jacinta de Otero
+srv-it-0921,10.80.194.17,e4:a4:c5:e0:51:80,Windows Server 2022,8,16,IT,testing,Raimundo Dávila Sobrino
+srv-finance-0922,10.2.167.178,68:f2:e9:b2:77:ac,Debian 12,2,16,Finance,staging,Victor Manuel del Vazquez
+srv-security-0923,10.6.24.112,7c:55:6a:e6:a7:f1,Rocky Linux 9,64,2,Security,testing,Dan Sastre Morata
+srv-finance-0924,10.159.92.79,b8:83:11:8d:32:da,Windows Server 2019,64,8,Finance,testing,Jose Ignacio Palma Barrio
+srv-finance-0925,10.234.122.10,c4:b4:da:0a:9d:d8,Rocky Linux 9,32,4,Finance,development,Rosendo Abraham Boada Vara
+srv-operations-0926,10.40.117.18,22:de:b5:d3:60:4e,Rocky Linux 9,2,16,Operations,testing,Cosme Cózar
+srv-hr-0927,10.142.64.219,44:a1:8a:21:ce:87,Windows Server 2016,2,4,HR,testing,Yolanda del Montalbán
+srv-hr-0928,10.253.64.210,88:47:34:d2:8b:a1,Ubuntu Server 24.04,2,16,HR,staging,Ximena Ortega Peláez
+srv-development-0929,10.90.86.222,d6:d9:8a:e1:84:61,Windows Server 2019,4,8,Development,staging,Amaro Espada-Samper
+srv-finance-0930,10.173.111.199,1c:a0:f7:ea:6e:ba,Windows Server 2012,64,2,Finance,testing,Alicia Rivera Lasa
+srv-finance-0931,10.117.226.98,7c:78:3c:40:7d:38,Windows Server 2019,8,8,Finance,production,Cornelio Chico-Arévalo
+srv-management-0932,10.109.247.72,88:d1:62:86:b9:d1,Ubuntu Server 22.04,2,16,Management,production,Adán Vilanova
+srv-management-0933,10.209.176.232,46:2b:a0:b7:05:58,Debian 12,2,2,Management,development,Visitación Lara Pascual Pinilla
+srv-development-0934,10.187.14.42,b4:d6:5e:9b:8a:2d,Windows Server 2016,64,8,Development,staging,Jose Luis Novoa Montaña
+srv-hr-0935,10.254.140.53,38:b0:b4:82:8a:c4,Windows Server 2012,32,4,HR,testing,Rodolfo Aranda Páez
+srv-development-0936,10.87.35.143,36:5e:1b:ab:de:e4,Ubuntu Server 24.04,8,4,Development,development,Tatiana del Samper
+srv-it-0937,10.27.53.9,f0:22:88:b9:2b:f0,Windows Server 2016,4,16,IT,production,Maristela de Fonseca
+srv-security-0938,10.26.255.52,10:ac:ed:44:35:dd,Debian 12,4,8,Security,production,Esmeralda Cuenca Verdejo
+srv-security-0939,10.90.37.33,68:80:af:0f:c9:59,Debian 12,16,2,Security,development,Severino Morales Herranz
+srv-security-0940,10.194.60.184,02:bc:ef:7a:e5:03,Windows Server 2022,8,16,Security,development,Jose Luis Méndez Gomila
+srv-security-0941,10.126.208.4,b8:a5:fd:b5:56:3d,Windows Server 2022,32,16,Security,staging,Natanael Agustín Peinado
+srv-security-0942,10.203.247.29,64:1d:52:71:d8:db,Windows Server 2016,8,16,Security,development,Reyes Amigó Rubio
+srv-operations-0943,10.25.132.107,18:b5:47:cd:1e:67,Windows Server 2012,16,16,Operations,development,Isabel Gil-Fernández
+srv-hr-0944,10.176.63.188,7a:17:a6:c6:8f:8d,Ubuntu Server 22.04,2,4,HR,development,Teodora Abellán Cuesta
+srv-hr-0945,10.116.78.138,ce:f4:5c:8d:83:72,Ubuntu Server 22.04,32,16,HR,production,Francisco Jose Rivera Echeverría
+srv-finance-0946,10.81.155.77,60:f7:c5:12:4e:97,Ubuntu Server 24.04,64,16,Finance,development,Bonifacio Valentín Giner
+srv-it-0947,10.84.249.139,1e:bd:d0:d0:90:a1,Windows Server 2019,2,16,IT,production,Ainara Roda Carrasco
+srv-hr-0948,10.239.151.248,64:0e:fe:f3:cf:ae,Debian 12,64,8,HR,testing,Antonio Sacristán Ribes
+srv-hr-0949,10.248.77.93,64:f1:28:75:c2:30,Rocky Linux 9,2,8,HR,testing,Ciro Remigio Vilaplana Saez
+srv-it-0950,10.165.162.27,0e:93:ef:20:1b:dc,Windows Server 2012,16,16,IT,development,Aurelio Águila
+srv-operations-0951,10.197.6.237,d2:ef:3c:7c:d5:94,Windows Server 2022,2,16,Operations,production,Nydia del Cánovas
+srv-development-0952,10.66.122.20,ac:2e:75:3d:8c:01,Ubuntu Server 22.04,16,4,Development,development,Genoveva Blanca Villar Campoy
+srv-security-0953,10.235.53.196,08:dd:60:77:c4:00,Windows Server 2019,16,8,Security,development,Moisés Peláez Araujo
+srv-operations-0954,10.139.241.121,d8:e0:2e:48:e5:b4,Windows Server 2012,4,2,Operations,development,Edelmiro Iñiguez Segovia
+srv-development-0955,10.125.155.176,f8:b4:64:4e:b3:15,Windows Server 2012,4,8,Development,testing,Paz Sala
+srv-it-0956,10.131.193.11,84:75:06:c6:7f:15,Windows Server 2022,32,8,IT,development,Raquel Gómez Carbonell
+srv-operations-0957,10.245.144.6,34:d1:7d:94:af:12,Windows Server 2022,32,2,Operations,testing,Camilo Álvaro
+srv-finance-0958,10.25.70.138,02:0f:47:aa:7a:dd,Windows Server 2012,64,8,Finance,testing,Francisco de Galan
+srv-security-0959,10.214.65.92,20:db:cd:fe:40:05,Debian 12,8,16,Security,development,Ceferino Díez Izquierdo
+srv-development-0960,10.228.85.182,5e:9b:34:8f:b3:d1,Windows Server 2022,4,16,Development,development,Ruperta Priego Beltrán
+srv-management-0961,10.79.185.74,72:b5:1c:a2:5e:26,Debian 12,16,16,Management,production,Matías Buendía Cañellas
+srv-it-0962,10.211.93.94,04:95:9b:36:97:92,Ubuntu Server 24.04,32,4,IT,staging,Carmela Oller Escamilla
+srv-operations-0963,10.116.193.90,84:95:0e:b9:e1:08,Ubuntu Server 24.04,16,8,Operations,production,Lina Tomás
+srv-management-0964,10.156.157.80,24:56:16:b3:61:8d,Windows Server 2019,2,4,Management,testing,Obdulia Iglesias
+srv-it-0965,10.206.247.166,6e:3c:65:47:19:de,Windows Server 2019,4,16,IT,production,Manuela Sebastián
+srv-development-0966,10.24.0.253,e4:cd:ee:d4:b8:ea,Windows Server 2019,8,16,Development,staging,Encarnita Pol Chico
+srv-finance-0967,10.35.89.125,d0:37:c2:c4:67:78,Ubuntu Server 22.04,4,2,Finance,testing,Laura Salgado Benito
+srv-management-0968,10.153.146.68,3c:51:51:e3:96:11,Ubuntu Server 22.04,64,8,Management,production,Valerio de Miguel
+srv-it-0969,10.23.13.87,34:2b:9d:7d:21:57,Ubuntu Server 24.04,64,16,IT,development,Eutropio Jover Iriarte
+srv-security-0970,10.111.22.231,5e:01:b1:75:ae:b8,Windows Server 2016,4,16,Security,production,Tere Sainz Iglesias
+srv-security-0971,10.104.121.136,3c:f3:54:ec:69:b9,Windows Server 2022,64,2,Security,testing,José Mari Francisco Cózar
+srv-security-0972,10.131.201.41,02:c4:a7:c0:9b:08,Rocky Linux 9,8,16,Security,development,José Ángel Carreño Manjón
+srv-it-0973,10.219.105.206,a0:00:b9:f7:b5:c6,Debian 12,16,16,IT,production,Venceslás Calvet Ripoll
+srv-it-0974,10.230.7.124,0a:63:18:a8:72:fa,Ubuntu Server 22.04,2,16,IT,production,Curro Gallardo Sotelo
+srv-management-0975,10.42.142.23,10:51:11:95:44:0b,Debian 12,8,4,Management,testing,Malena Llobet Benitez
+srv-operations-0976,10.151.144.188,14:3b:eb:5e:f0:3d,Ubuntu Server 22.04,2,8,Operations,testing,Amada Cámara Vara
+srv-hr-0977,10.149.67.80,8c:61:2c:b9:ff:97,Debian 12,4,4,HR,development,Milagros Celia Ferrando Infante
+srv-development-0978,10.135.195.223,70:87:a6:b3:b7:0d,Ubuntu Server 22.04,2,4,Development,staging,Tatiana Arce Arnau
+srv-operations-0979,10.175.166.193,da:10:df:41:e0:8d,Debian 12,2,4,Operations,staging,Inocencio Sainz
+srv-hr-0980,10.64.213.199,aa:2a:71:c1:c3:10,Rocky Linux 9,64,8,HR,development,Armando León Martínez
+srv-development-0981,10.109.137.120,4e:53:f5:7c:88:74,Windows Server 2019,32,4,Development,production,María Teresa Bustamante-Machado
+srv-security-0982,10.172.172.228,c8:4b:3a:39:4c:c1,Windows Server 2016,8,4,Security,staging,Kike Manuel Blanes
+srv-management-0983,10.137.70.143,b2:fb:37:c1:3c:61,Windows Server 2016,8,8,Management,production,Seve Gallo
+srv-it-0984,10.60.43.113,0e:45:31:5d:b7:39,Ubuntu Server 22.04,16,8,IT,production,Nuria Itziar Hurtado Carrera
+srv-operations-0985,10.223.152.146,22:0c:62:56:00:a6,Windows Server 2012,2,16,Operations,testing,Nazaret Oliva
+srv-security-0986,10.158.196.191,bc:e8:df:b9:1f:20,Windows Server 2012,4,16,Security,testing,Hortensia Marquez Salmerón
+srv-development-0987,10.163.249.186,c8:d9:dd:a5:62:9f,Ubuntu Server 22.04,64,4,Development,staging,Ruperta Polo Tamarit
+srv-hr-0988,10.53.125.206,0e:2d:fb:17:94:ba,Windows Server 2016,32,8,HR,staging,Martín Cobo Feijoo
+srv-security-0989,10.19.191.138,04:8c:37:c0:1e:d9,Windows Server 2022,4,4,Security,staging,Victorino Cases Roman
+srv-hr-0990,10.248.120.242,76:4c:0e:d3:0d:20,Debian 12,2,16,HR,production,Griselda Navarro Ribera
+srv-hr-0991,10.120.63.147,7e:fb:cf:1b:12:4c,Windows Server 2019,2,8,HR,production,Alejandra Carina Estevez Barceló
+srv-management-0992,10.59.188.115,b8:b8:60:f2:5b:98,Rocky Linux 9,4,8,Management,testing,Elías Pavón
+srv-finance-0993,10.204.140.220,4a:12:fd:e3:ec:49,Windows Server 2012,2,8,Finance,staging,Tomás Tormo Bejarano
+srv-management-0994,10.123.224.154,ea:9a:e3:73:07:b5,Windows Server 2019,64,8,Management,production,Beatriz Estevez Gámez
+srv-it-0995,10.33.213.114,68:a9:f7:2d:b1:12,Rocky Linux 9,4,2,IT,development,Natalia Ricart Marquez
+srv-hr-0996,10.133.44.117,e2:c5:da:90:ee:1e,Debian 12,16,2,HR,testing,Ismael Almazán
+srv-security-0997,10.71.106.168,c8:e0:3c:df:8c:e0,Windows Server 2012,4,4,Security,staging,Mayte de Real
+srv-hr-0998,10.66.22.52,fa:01:67:08:5e:2d,Rocky Linux 9,16,16,HR,staging,Edu Goicoechea-Niño
+srv-hr-0999,10.7.199.52,a8:47:d9:38:8d:d9,Windows Server 2022,16,8,HR,production,Loreto Heredia-Gimenez
+srv-security-1000,10.149.178.55,d0:da:90:13:bb:6d,Ubuntu Server 22.04,2,8,Security,production,Darío Blasco-Calvo
