@@ -1,0 +1,30 @@
+Sending build context to Docker daemon  157.7kB
+Step 1/9 : FROM python:3.11-alpine
+ ---> 8b5bfdb1fd2d
+Step 2/9 : ENV PYTHONDONTWRITEBYTECODE=1
+ ---> Using cache
+ ---> da575fac1396
+Step 3/9 : ENV PYTHONUNBUFFERED=1
+ ---> Using cache
+ ---> e3d408d4dfd7
+Step 4/9 : WORKDIR /app
+ ---> Using cache
+ ---> 6e3afb5d1757
+Step 5/9 : COPY requirements.txt .
+ ---> Using cache
+ ---> 90b825a1f8dc
+Step 6/9 : RUN pip install --no-cache-dir -r requirements.txt
+ ---> Using cache
+ ---> da001fdf856f
+Step 7/9 : COPY . .
+ ---> 00cf96be168c
+Step 8/9 : EXPOSE 8000
+ ---> Running in 7779c57358fe
+ ---> Removed intermediate container 7779c57358fe
+ ---> a629eff71ae6
+Step 9/9 : CMD ["uvicorn", "api_main:app", "--host", "0.0.0.0", "--port", "8000"]
+ ---> Running in c02971a3afac
+ ---> Removed intermediate container c02971a3afac
+ ---> 8310c6ec6c7e
+Successfully built 8310c6ec6c7e
+Successfully tagged python-sysadmin-toolkit:1.1

@@ -12,7 +12,7 @@ AUTH_LOG_PATH = "data/auth.log"
 app = FastAPI(
     title="Python Sysadmin Toolkit API",
     description="API REST para exponer funciones del toolkit de administración de sistemas.",
-    version="1.0.0",
+    version="1.0.1",
 )
 
 

@@ -1,0 +1,60 @@
+[
+    {
+        "Architecture": "amd64",
+        "Config": {
+            "Cmd": [
+                "uvicorn",
+                "api_main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000"
+            ],
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.15",
+                "PYTHON_SHA256=272179ddd9a2e41a0fc8e42e33dfbdca0b3711aa5abf372d3f2d51543d09b625",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONUNBUFFERED=1"
+            ],
+            "ExposedPorts": {
+                "8000/tcp": {}
+            },
+            "WorkingDir": "/app"
+        },
+        "Created": "2026-05-18T10:42:09.617809001Z",
+        "Descriptor": {
+            "digest": "sha256:3db0167f42e23c9217a8b7fe9038484326b797d25d08e778fb063fce2db43e1f",
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "size": 2055
+        },
+        "Id": "sha256:3db0167f42e23c9217a8b7fe9038484326b797d25d08e778fb063fce2db43e1f",
+        "Metadata": {
+            "LastTagTime": "2026-05-18T10:42:09.742499683Z"
+        },
+        "Os": "linux",
+        "Parent": "sha256:bbccb85ba1ba4f80042d918f785b73489af0fb6b444b018a3dcda5848e6f5edd",
+        "RepoDigests": [
+            "python-sysadmin-toolkit@sha256:3db0167f42e23c9217a8b7fe9038484326b797d25d08e778fb063fce2db43e1f"
+        ],
+        "RepoTags": [
+            "python-sysadmin-toolkit:1.0"
+        ],
+        "RootFS": {
+            "Layers": [
+                "sha256:29df493baa13de438d6d2ece3a8333032e0b7b9b9d8cce4ee82194da255f61e1",
+                "sha256:611cae45bc2cb7ff6a78488ab602a59918fbc0431a0f12281dacf10cbb7ba94f",
+                "sha256:b02b147e872fb22e2550aaaeae713706d551a5321619cf742e89c4144b54c7d4",
+                "sha256:6239b5ae5fda090b9f21fcd4bc2b888837f17814c06c0642921cdb35c6a847e5",
+                "sha256:77995ed55ac6c652f5ab13066169091e4f0c0056f3815cc4f89cb971a7af9ad4",
+                "sha256:f8e11aef522ee434cdff835e9da3f498173fbbd3c8561b6c31b1ba897e5c2afc",
+                "sha256:ad4c59ca0f39a6cd28d87329489fd36d735c29e4ac9f26ec28741138ff504df9",
+                "sha256:0e1406e4ff5f943278f9674887bef49d40adc2adc263be3e6809e8b9f20dc991"
+            ],
+            "Type": "layers"
+        },
+        "Size": 101524519
+    }
+]
