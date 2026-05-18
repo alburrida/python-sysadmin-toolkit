@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "python-sysadmin-toolkit_sysadmin_net",
+        "Id": "d46073bb1026ba02eb4d952de0237e31b4611e47442a85ee07fe3f63435e4fa7",
+        "Created": "2026-05-18T12:20:11.945313693Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "IPRange": "",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.config-hash": "1624790b1cd1e0211a54ef99f44de9cd3d0bef3b332ce6c960b8329d779c945f",
+            "com.docker.compose.network": "sysadmin_net",
+            "com.docker.compose.project": "python-sysadmin-toolkit",
+            "com.docker.compose.version": "2.40.3"
+        },
+        "Containers": {
+            "ae75c6c913cda30d5ece02f47f75e7f129c679c1d1b15eaf49b45dfbedc71bce": {
+                "Name": "sysadmin-backend",
+                "EndpointID": "402401b3d84eb4b584bba2b44b15668509fe17e5e64a1f0b878432eadf1999a9",
+                "MacAddress": "e6:72:31:e1:70:5d",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            },
+            "f7449099c400be1d7b1fb0b580aa208c79b37d428c50d88cbb9959dda910acf2": {
+                "Name": "sysadmin-redis",
+                "EndpointID": "0c5cd6189efa6bd4b28687a4b20f4e6f196652ad34a4f1efc10ce6380f7efa74",
+                "MacAddress": "be:c0:16:c7:e3:f8",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.18.0.0/16": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 65531
+                    }
+                }
+            }
+        }
+    }
+]

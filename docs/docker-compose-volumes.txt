@@ -1,0 +1,5 @@
+DRIVER    VOLUME NAME
+local     db-data
+local     python-sysadmin-toolkit_backend_storage
+local     python-sysadmin-toolkit_redis_data
+local     sysadmin-api-storage
