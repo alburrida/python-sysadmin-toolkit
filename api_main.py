@@ -1,5 +1,4 @@
 import json
-import os
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, cast
@@ -7,19 +6,22 @@ from typing import Any, cast
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
+from app_config import load_config, mask_secret
 from inventory_manager import filter_vulnerable_servers, load_inventory
 from log_parser import parse_failed_ssh_attempts
 
 
+config = load_config()
+
 INVENTORY_PATH = "data/inventory.csv"
 AUTH_LOG_PATH = "data/auth.log"
-STORAGE_DIR = Path(os.getenv("STORAGE_DIR", "storage"))
+STORAGE_DIR = Path(config.storage_dir)
 STORAGE_FILE = STORAGE_DIR / "entries.jsonl"
 
 app = FastAPI(
     title="Python Sysadmin Toolkit API",
     description="API REST para exponer funciones del toolkit de administración de sistemas.",
-    version="1.0.2",
+    version="1.0.3",
 )
 
 
@@ -90,6 +92,18 @@ def health_check() -> dict[str, str]:
     return {
         "status": "ok",
         "service": "python-sysadmin-toolkit",
+        "environment": config.app_env,
+    }
+
+
+@app.get("/runtime-config")
+def get_runtime_config() -> dict[str, str | int]:
+    return {
+        "app_env": config.app_env,
+        "storage_dir": config.storage_dir,
+        "redis_host": config.redis_host,
+        "redis_port": config.redis_port,
+        "redis_password": mask_secret(config.redis_password),
     }
 
 
