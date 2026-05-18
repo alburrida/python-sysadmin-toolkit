@@ -1,0 +1,57 @@
+[
+    {
+        "Name": "bridge",
+        "Id": "f5b278ad6eaba0b0140baded929d2bd47c7793ad3790cdbe6ea03391ffcfc2e4",
+        "Created": "2026-05-18T09:42:08.251053278Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "IPRange": "",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {},
+        "Containers": {
+            "95310eac2d64475f9c9e0feb47b5f0b964510210ef4c8bb8a15fbe17637fea0f": {
+                "Name": "sysadmin-api",
+                "EndpointID": "575813f1f90dcf10164ee30f0a77be8cd43001946adf39189330f5b3cc2695e7",
+                "MacAddress": "0a:79:f9:fc:0b:40",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.17.0.0/16": {
+                        "IPsInUse": 4,
+                        "DynamicIPsAvailable": 65532
+                    }
+                }
+            }
+        }
+    }
+]
