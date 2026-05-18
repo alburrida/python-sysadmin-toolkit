@@ -1,0 +1,20 @@
+IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
+3db0167f42e2   2 minutes ago   /bin/sh -c #(nop)  CMD ["uvicorn" "api_main:…   0B        
+bbccb85ba1ba   2 minutes ago   /bin/sh -c #(nop)  EXPOSE 8000                  0B        
+f0b8505bf1b9   2 minutes ago   /bin/sh -c #(nop) COPY dir:a535b84b61af15e10…   197kB     
+da001fdf856f   2 minutes ago   /bin/sh -c pip install --no-cache-dir -r req…   301MB     
+90b825a1f8dc   3 minutes ago   /bin/sh -c #(nop) COPY file:8c263b115ec63c6e…   12.3kB    
+6e3afb5d1757   3 minutes ago   /bin/sh -c #(nop) WORKDIR /app                  8.19kB    
+e3d408d4dfd7   3 minutes ago   /bin/sh -c #(nop)  ENV PYTHONUNBUFFERED=1       0B        
+da575fac1396   3 minutes ago   /bin/sh -c #(nop)  ENV PYTHONDONTWRITEBYTECO…   0B        
+8b5bfdb1fd2d   4 weeks ago     CMD ["python3"]                                 0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     RUN /bin/sh -c set -eux;  for src in idle3 p…   16.4kB    buildkit.dockerfile.v0
+<missing>      4 weeks ago     RUN /bin/sh -c set -eux;   apk add --no-cach…   51.1MB    buildkit.dockerfile.v0
+<missing>      4 weeks ago     ENV PYTHON_SHA256=272179ddd9a2e41a0fc8e42e33…   0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     ENV PYTHON_VERSION=3.11.15                      0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     ENV GPG_KEY=A035C8C19219BA821ECEA86B64E628F8…   0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     RUN /bin/sh -c set -eux;  apk add --no-cache…   3.02MB    buildkit.dockerfile.v0
+<missing>      4 weeks ago     ENV LANG=C.UTF-8                                0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     ENV PATH=/usr/local/bin:/usr/local/sbin:/usr…   0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     CMD ["/bin/sh"]                                 0B        buildkit.dockerfile.v0
+<missing>      4 weeks ago     ADD alpine-minirootfs-3.23.4-x86_64.tar.gz /…   9.11MB    buildkit.dockerfile.v0

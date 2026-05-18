@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.git/
+.gitignore
+.env
+*.log
+reports/*.xlsx
+docs/
+tests/
+get-docker.sh
