@@ -483,21 +483,3 @@ Redis no publica el puerto `6379` al host.
 El backend no publica el puerto `8000` al host.
 
 El tráfico externo entra únicamente por NGINX.
-
-## Entregable
-
-El proyecto incluye:
-
-- Dockerfile optimizado.
-- Docker Compose con backend, Redis y NGINX.
-- NGINX como proxy inverso.
-- HTTPS local con certificado autofirmado.
-- Rate limiting básico.
-- Red interna Docker.
-- Volúmenes persistentes.
-- Variables de entorno con `.env.example`.
-- Healthchecks.
-- API REST con FastAPI.
-- Redis como caché y almacenamiento de IPs sospechosas.
-- Documentación técnica completa.
-- README profesional.
