@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: sysadmin-backend
     env_file:
       - .env
     expose:

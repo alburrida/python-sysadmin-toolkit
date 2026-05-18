@@ -1,0 +1,4 @@
+CONTAINER ID   NAME                                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O     PIDS
+8deeb1bad159   python-sysadmin-toolkit-backend-1   0.20%     68.93MiB / 1.922GiB   3.50%     2.47kB / 1.92kB   0B / 0B       2
+33f1e35e4ee6   sysadmin-proxy                      0.00%     3.184MiB / 1.922GiB   0.16%     8.94kB / 13.5kB   0B / 20.5kB   2
+0dcefeb2d8eb   sysadmin-redis                      0.41%     3.211MiB / 1.922GiB   0.16%     4.26kB / 1.28kB   172kB / 0B    6
