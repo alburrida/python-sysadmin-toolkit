@@ -6,9 +6,9 @@ Docker incluye varios tipos de red. Los más importantes son `bridge`, `host` y 
 
 ## Red bridge
 
-La red `bridge` es el modo por defecto cuando se crea un contenedor sin indicar una red concreta.
+La red `bridge` es la red por defecto cuando se crea un contenedor sin indicar una red concreta.
 
-En este modo, Docker crea una red virtual interna. Los contenedores conectados a esa red reciben una IP privada y pueden comunicarse entre ellos si están en la misma red.
+En este modo, Docker crea una red virtual interna. Los contenedores conectados a esa red reciben una IP privada y pueden comunicarse entre ellos si están dentro de la misma red.
 
 Cuando se publica un puerto con `-p`, Docker redirige tráfico desde el host hacia el contenedor.
 
@@ -26,15 +26,13 @@ La red `bridge` es adecuada para la mayoría de aplicaciones multicontenedor, es
 
 En la red `host`, el contenedor no tiene una red virtual separada. Usa directamente la red del host.
 
-Esto elimina parte del aislamiento de red, pero puede mejorar el rendimiento en casos concretos.
-
-Ejemplo conceptual:
+Ejemplo:
 
 ```bash
 docker run --network host imagen
 ```
 
-En este modo, si la aplicación escucha en el puerto 8000, lo hará directamente en el puerto 8000 del host.
+En este modo, si la aplicación escucha en el puerto 8000, lo hace directamente en el puerto 8000 del host.
 
 No suele ser la opción más segura para servicios normales porque reduce el aislamiento entre host y contenedor.
 
@@ -42,7 +40,7 @@ No suele ser la opción más segura para servicios normales porque reduce el ais
 
 En la red `none`, el contenedor no tiene conectividad de red externa.
 
-Ejemplo conceptual:
+Ejemplo:
 
 ```bash
 docker run --network none imagen
@@ -62,15 +60,9 @@ redis
 
 como nombre de host.
 
-No hace falta saber la IP interna del contenedor. Docker Compose gestiona la resolución DNS interna dentro de la red del proyecto.
+No hace falta conocer la IP interna del contenedor. Docker Compose gestiona la resolución DNS interna dentro de la red del proyecto.
 
-Ejemplo:
-
-```python
-redis_host = "redis"
-```
-
-Esto es muy importante porque las IPs internas de los contenedores pueden cambiar al recrearse, pero el nombre del servicio se mantiene.
+Esto es importante porque las IP internas pueden cambiar al recrear contenedores, pero el nombre del servicio se mantiene estable.
 
 ## Puerto publicado frente a puerto interno
 

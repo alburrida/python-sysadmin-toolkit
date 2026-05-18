@@ -1,8 +1,8 @@
 [
     {
         "Name": "sysadmin-test-net",
-        "Id": "1bb1bd99c9b0fb298c179344a10d0d41d3cf7c605b259f4bda7b1eecd1333c60",
-        "Created": "2026-05-18T11:40:58.134030057Z",
+        "Id": "47672c8182ae20c77bf436d9c41cfd07389c618a31b16df073ce509d027f7162",
+        "Created": "2026-05-18T11:45:59.876115889Z",
         "Scope": "local",
         "Driver": "bridge",
         "EnableIPv4": true,
