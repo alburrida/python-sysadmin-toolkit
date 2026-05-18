@@ -147,3 +147,30 @@ docs/docker-image-history.txt
 La imagen puede optimizarse usando `.dockerignore`, copiando primero `requirements.txt`, usando `--no-cache-dir` en pip y empleando una imagen base ligera como Alpine.
 
 En proyectos más grandes también se podría separar un archivo de dependencias de producción para evitar instalar herramientas de desarrollo como `pytest`, `mypy` o stubs de tipado dentro de la imagen final.
+
+## Verificación de ejecución real en Docker
+
+Se comprobó que la API estaba respondiendo desde el contenedor y no desde Uvicorn local.
+
+```bash
+docker ps
+```
+
+Salida relevante:
+
+```text
+sysadmin-api   python-sysadmin-toolkit:1.0   0.0.0.0:8000->8000/tcp
+```
+
+Prueba del endpoint de salud:
+
+```bash
+curl http://localhost:8000/health
+```
+
+Resultado:
+
+```json
+{"status":"ok","service":"python-sysadmin-toolkit"}
+```
+
