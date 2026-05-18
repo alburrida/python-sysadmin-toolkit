@@ -1,0 +1,348 @@
+[
+    {
+        "Id": "33f1e35e4ee6a5c8285eb882ce3fd71c9e7d4c2f601d1af0e0ce596f8509802a",
+        "Created": "2026-05-18T13:50:12.812474766Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 11840,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-05-18T13:50:24.535547654Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-05-18T14:06:31.837005459Z",
+                        "End": "2026-05-18T14:06:31.888576569Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:07:01.889463376Z",
+                        "End": "2026-05-18T14:07:01.957090708Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:07:31.958313599Z",
+                        "End": "2026-05-18T14:07:32.032945668Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:08:02.033385572Z",
+                        "End": "2026-05-18T14:08:02.10836693Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:08:32.109350638Z",
+                        "End": "2026-05-18T14:08:32.177525599Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:dc48b7a872a79fb541ba5081d320b11b549231bc63ba465a7495afaa7d2ebcb8",
+        "ResolvConfPath": "/var/lib/docker/containers/33f1e35e4ee6a5c8285eb882ce3fd71c9e7d4c2f601d1af0e0ce596f8509802a/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/33f1e35e4ee6a5c8285eb882ce3fd71c9e7d4c2f601d1af0e0ce596f8509802a/hostname",
+        "HostsPath": "/var/lib/docker/containers/33f1e35e4ee6a5c8285eb882ce3fd71c9e7d4c2f601d1af0e0ce596f8509802a/hosts",
+        "LogPath": "/var/lib/docker/containers/33f1e35e4ee6a5c8285eb882ce3fd71c9e7d4c2f601d1af0e0ce596f8509802a/33f1e35e4ee6a5c8285eb882ce3fd71c9e7d4c2f601d1af0e0ce596f8509802a-json.log",
+        "Name": "/sysadmin-proxy",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/alba/python-sysadmin-toolkit/static:/usr/share/nginx/html/static:ro",
+                "/home/alba/python-sysadmin-toolkit/nginx/nginx.conf:/etc/nginx/nginx.conf:ro",
+                "/home/alba/python-sysadmin-toolkit/nginx/certs:/etc/nginx/certs:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "python-sysadmin-toolkit_sysadmin_net",
+            "PortBindings": {
+                "443/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "443"
+                    }
+                ],
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "80"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/alba/python-sysadmin-toolkit/nginx/nginx.conf",
+                "Destination": "/etc/nginx/nginx.conf",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/alba/python-sysadmin-toolkit/nginx/certs",
+                "Destination": "/etc/nginx/certs",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/alba/python-sysadmin-toolkit/static",
+                "Destination": "/usr/share/nginx/html/static",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "33f1e35e4ee6",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.31.0",
+                "PKG_RELEASE=1",
+                "DYNPKG_RELEASE=1",
+                "NJS_VERSION=0.9.8",
+                "NJS_RELEASE=1",
+                "ACME_VERSION=0.4.1"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "nginx",
+                    "-t"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 5000000000,
+                "StartPeriod": 15000000000,
+                "Retries": 3
+            },
+            "Image": "nginx:alpine",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "adc8757ade08b36937421ef77f2008bda434ec32489ba7a973787b55e9f3358c",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "backend:service_healthy:false",
+                "com.docker.compose.image": "sha256:dc48b7a872a79fb541ba5081d320b11b549231bc63ba465a7495afaa7d2ebcb8",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "python-sysadmin-toolkit",
+                "com.docker.compose.project.config_files": "/home/alba/python-sysadmin-toolkit/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/alba/python-sysadmin-toolkit",
+                "com.docker.compose.service": "proxy",
+                "com.docker.compose.version": "2.40.3",
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "SandboxID": "430d36ba8c12b9f944dabf932177ab7243643ce016577cdabbacb2426905ce5b",
+            "SandboxKey": "/var/run/docker/netns/430d36ba8c12",
+            "Ports": {
+                "443/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "443"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "443"
+                    }
+                ],
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "80"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "80"
+                    }
+                ]
+            },
+            "Networks": {
+                "python-sysadmin-toolkit_sysadmin_net": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "sysadmin-proxy",
+                        "proxy"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "02a0efe66e4a987b62e9904a66a421f42b35cb6c12416afdfc1587d1c0fdea88",
+                    "EndpointID": "20d2b8d10a5b625a19a209f4f174e89a661a6fd572bec1ad9d205d7461bc2dec",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.4",
+                    "MacAddress": "72:bb:b1:bb:06:ad",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "sysadmin-proxy",
+                        "proxy",
+                        "33f1e35e4ee6"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:c22e76a97fe5bacad9d58bad0a96e903480c05f8dee30884b14550530ddd25a9",
+            "size": 2495,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:f3948ff2806a04de42190809a6921a131319b9c5ed3efead5c8671c94ec15b62",
+                "org.opencontainers.image.base.name": "nginx:1.31.0-alpine-slim",
+                "org.opencontainers.image.created": "2026-05-13T19:07:07Z",
+                "org.opencontainers.image.revision": "c90491de22401b512a64fff6d23d3dcb3a861573",
+                "org.opencontainers.image.source": "https://github.com/nginx/docker-nginx.git#c90491de22401b512a64fff6d23d3dcb3a861573:mainline/alpine",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/nginx",
+                "org.opencontainers.image.version": "1.31.0-alpine"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

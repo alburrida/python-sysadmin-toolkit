@@ -1,0 +1,300 @@
+[
+    {
+        "Id": "0dcefeb2d8ebdc287ff9be4637fc31a078a4dac1f01adb1cd54adc86339c3fa3",
+        "Created": "2026-05-18T13:50:12.431021603Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "redis-server",
+            "--requirepass",
+            "redis_dev_password_123"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 11672,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-05-18T13:50:13.000861709Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-05-18T14:06:20.084616835Z",
+                        "End": "2026-05-18T14:06:20.134154464Z",
+                        "ExitCode": 0,
+                        "Output": "Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.\nPONG\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:06:50.13508872Z",
+                        "End": "2026-05-18T14:06:50.181381405Z",
+                        "ExitCode": 0,
+                        "Output": "Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.\nPONG\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:07:20.182729291Z",
+                        "End": "2026-05-18T14:07:20.245283909Z",
+                        "ExitCode": 0,
+                        "Output": "Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.\nPONG\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:07:50.246223958Z",
+                        "End": "2026-05-18T14:07:50.298865203Z",
+                        "ExitCode": 0,
+                        "Output": "Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.\nPONG\n"
+                    },
+                    {
+                        "Start": "2026-05-18T14:08:20.299988077Z",
+                        "End": "2026-05-18T14:08:20.348674614Z",
+                        "ExitCode": 0,
+                        "Output": "Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.\nPONG\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:6ab0b6e7381779332f97b8ca76193e45b0756f38d4c0dcda72dbb3c32061ab99",
+        "ResolvConfPath": "/var/lib/docker/containers/0dcefeb2d8ebdc287ff9be4637fc31a078a4dac1f01adb1cd54adc86339c3fa3/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/0dcefeb2d8ebdc287ff9be4637fc31a078a4dac1f01adb1cd54adc86339c3fa3/hostname",
+        "HostsPath": "/var/lib/docker/containers/0dcefeb2d8ebdc287ff9be4637fc31a078a4dac1f01adb1cd54adc86339c3fa3/hosts",
+        "LogPath": "/var/lib/docker/containers/0dcefeb2d8ebdc287ff9be4637fc31a078a4dac1f01adb1cd54adc86339c3fa3/0dcefeb2d8ebdc287ff9be4637fc31a078a4dac1f01adb1cd54adc86339c3fa3-json.log",
+        "Name": "/sysadmin-redis",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": [
+            "f02cddc79feb050aaf3b34824dd7e731e7d2688d74235897345619e0cbf3e9e6"
+        ],
+        "HostConfig": {
+            "Binds": [
+                "python-sysadmin-toolkit_redis_data:/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "python-sysadmin-toolkit_sysadmin_net",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "python-sysadmin-toolkit_redis_data",
+                "Source": "/var/lib/docker/volumes/python-sysadmin-toolkit_redis_data/_data",
+                "Destination": "/data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "0dcefeb2d8eb",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "6379/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "REDIS_PASSWORD=redis_dev_password_123",
+                "APP_ENV=development",
+                "STORAGE_DIR=/app/storage",
+                "REDIS_HOST=redis",
+                "REDIS_PORT=6379",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "REDIS_VERSION=7.4.9"
+            ],
+            "Cmd": [
+                "redis-server",
+                "--requirepass",
+                "redis_dev_password_123"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "redis-cli -a $REDIS_PASSWORD ping | grep PONG"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 5000000000,
+                "StartPeriod": 10000000000,
+                "Retries": 3
+            },
+            "Image": "redis:7-alpine",
+            "Volumes": {
+                "/data": {}
+            },
+            "WorkingDir": "/data",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "36b4d43256726b57225a77261d5877e5d2aa9edd3723abf17592a3bcc27d4d5e",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:6ab0b6e7381779332f97b8ca76193e45b0756f38d4c0dcda72dbb3c32061ab99",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "python-sysadmin-toolkit",
+                "com.docker.compose.project.config_files": "/home/alba/python-sysadmin-toolkit/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/alba/python-sysadmin-toolkit",
+                "com.docker.compose.service": "redis",
+                "com.docker.compose.version": "2.40.3"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "bf6e889de4f114fb0e094f395f3f4158052bdcde9a81c5fc2834c4d6a384a670",
+            "SandboxKey": "/var/run/docker/netns/bf6e889de4f1",
+            "Ports": {
+                "6379/tcp": null
+            },
+            "Networks": {
+                "python-sysadmin-toolkit_sysadmin_net": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "sysadmin-redis",
+                        "redis"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "02a0efe66e4a987b62e9904a66a421f42b35cb6c12416afdfc1587d1c0fdea88",
+                    "EndpointID": "f52ed307e8ce09fbdb58c54b250ad68fa032c856a7bafc8b5c62f07607438037",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.2",
+                    "MacAddress": "82:63:64:3e:36:f0",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "sysadmin-redis",
+                        "redis",
+                        "0dcefeb2d8eb"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:b1addbe72465a718643cff9e60a58e6df1841e29d6d7d60c9a85d8d72f08d1a7",
+            "size": 2287,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:f27cad9117495d32d067133afff942cb2dc745dfe9163e949f6bfe8a6a245339",
+                "org.opencontainers.image.base.name": "alpine:3.21",
+                "org.opencontainers.image.created": "2026-05-07T17:34:01Z",
+                "org.opencontainers.image.revision": "2b76f51f4af2f8586e137c49c55bfedb41d6751c",
+                "org.opencontainers.image.source": "https://github.com/redis/docker-library-redis.git#2b76f51f4af2f8586e137c49c55bfedb41d6751c:alpine",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/redis",
+                "org.opencontainers.image.version": "7.4.9-alpine"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "Id": "18de13437e8386c59c9d755d91312ba8c3196a4591b294b5612d581efb347d5b",
+        "Created": "2026-05-18T13:50:12.619020269Z",
+        "Path": "uvicorn",
+        "Args": [
+            "api_main:app",
+            "--host",
+            "0.0.0.0",
+            "--port",
+            "8000"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 11760,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-05-18T13:50:18.751696189Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-05-18T14:06:37.156409103Z",
+                        "End": "2026-05-18T14:06:37.545698865Z",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-05-18T14:07:07.54996685Z",
+                        "End": "2026-05-18T14:07:07.94923525Z",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-05-18T14:07:37.950136858Z",
+                        "End": "2026-05-18T14:07:38.356054787Z",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-05-18T14:08:08.356930387Z",
+                        "End": "2026-05-18T14:08:08.762193085Z",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-05-18T14:08:38.762568502Z",
+                        "End": "2026-05-18T14:08:39.172509181Z",
+                        "ExitCode": 0,
+                        "Output": ""
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:e41286ce3864703bfdb536858b83e1da7dbb827cd5f79a8532edf4076775abaf",
+        "ResolvConfPath": "/var/lib/docker/containers/18de13437e8386c59c9d755d91312ba8c3196a4591b294b5612d581efb347d5b/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/18de13437e8386c59c9d755d91312ba8c3196a4591b294b5612d581efb347d5b/hostname",
+        "HostsPath": "/var/lib/docker/containers/18de13437e8386c59c9d755d91312ba8c3196a4591b294b5612d581efb347d5b/hosts",
+        "LogPath": "/var/lib/docker/containers/18de13437e8386c59c9d755d91312ba8c3196a4591b294b5612d581efb347d5b/18de13437e8386c59c9d755d91312ba8c3196a4591b294b5612d581efb347d5b-json.log",
+        "Name": "/sysadmin-backend",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "python-sysadmin-toolkit_backend_storage:/app/storage:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "python-sysadmin-toolkit_sysadmin_net",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "python-sysadmin-toolkit_backend_storage",
+                "Source": "/var/lib/docker/volumes/python-sysadmin-toolkit_backend_storage/_data",
+                "Destination": "/app/storage",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "18de13437e83",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "REDIS_PASSWORD=redis_dev_password_123",
+                "APP_ENV=development",
+                "STORAGE_DIR=/app/storage",
+                "REDIS_HOST=redis",
+                "REDIS_PORT=6379",
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.15",
+                "PYTHON_SHA256=272179ddd9a2e41a0fc8e42e33dfbdca0b3711aa5abf372d3f2d51543d09b625",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONUNBUFFERED=1"
+            ],
+            "Cmd": [
+                "uvicorn",
+                "api_main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "python",
+                    "-c",
+                    "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 5000000000,
+                "StartPeriod": 15000000000,
+                "Retries": 3
+            },
+            "Image": "python-sysadmin-toolkit-backend",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "220e9c11f85579d7c767bcdf78ce6eb3f67e3e38654edd9a3f9ed1d3fb817cde",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "redis:service_healthy:false",
+                "com.docker.compose.image": "sha256:e41286ce3864703bfdb536858b83e1da7dbb827cd5f79a8532edf4076775abaf",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "python-sysadmin-toolkit",
+                "com.docker.compose.project.config_files": "/home/alba/python-sysadmin-toolkit/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/alba/python-sysadmin-toolkit",
+                "com.docker.compose.service": "backend",
+                "com.docker.compose.version": "2.40.3"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "c310355a7e7e841c537184d718c51d05d006c19a7f1aa4efe1f40a1fbfa61f4b",
+            "SandboxKey": "/var/run/docker/netns/c310355a7e7e",
+            "Ports": {
+                "8000/tcp": null
+            },
+            "Networks": {
+                "python-sysadmin-toolkit_sysadmin_net": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "sysadmin-backend",
+                        "backend"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "02a0efe66e4a987b62e9904a66a421f42b35cb6c12416afdfc1587d1c0fdea88",
+                    "EndpointID": "a834c68ee504687c53528ebc923ea0a6f1a6b6511bab853b9471565c36494d2f",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.3",
+                    "MacAddress": "f6:e0:39:a9:bf:f6",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "sysadmin-backend",
+                        "backend",
+                        "18de13437e83"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:554a61e43f728863f71f143ee18ec4384bf2d40733a1643820ee81024aef8d56",
+            "size": 1811,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]
