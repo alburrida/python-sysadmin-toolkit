@@ -1,0 +1,11 @@
+[
+    {
+        "CreatedAt": "2026-05-18T12:08:31Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/sysadmin-api-storage/_data",
+        "Name": "sysadmin-api-storage",
+        "Options": null,
+        "Scope": "local"
+    }
+]
