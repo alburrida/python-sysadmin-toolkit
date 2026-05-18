@@ -1,0 +1,1 @@
+Static files served directly by NGINX.

@@ -1,0 +1,4 @@
+NAME               IMAGE                             COMMAND                  SERVICE   CREATED         STATUS         PORTS
+sysadmin-backend   python-sysadmin-toolkit-backend   "uvicorn api_main:ap…"   backend   3 minutes ago   Up 3 minutes   8000/tcp
+sysadmin-proxy     nginx:alpine                      "/docker-entrypoint.…"   proxy     3 minutes ago   Up 3 minutes   0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp
+sysadmin-redis     redis:7-alpine                    "docker-entrypoint.s…"   redis     3 minutes ago   Up 3 minutes   6379/tcp
