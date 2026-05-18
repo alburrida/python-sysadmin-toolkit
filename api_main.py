@@ -9,6 +9,13 @@ from pydantic import BaseModel, Field
 from app_config import load_config, mask_secret
 from inventory_manager import filter_vulnerable_servers, load_inventory
 from log_parser import parse_failed_ssh_attempts
+from redis_utils import (
+    add_suspicious_ip,
+    get_cached_json,
+    list_suspicious_ips,
+    redis_ping,
+    set_cached_json,
+)
 
 
 config = load_config()
@@ -21,7 +28,7 @@ STORAGE_FILE = STORAGE_DIR / "entries.jsonl"
 app = FastAPI(
     title="Python Sysadmin Toolkit API",
     description="API REST para exponer funciones del toolkit de administración de sistemas.",
-    version="1.0.3",
+    version="1.0.4",
 )
 
 
@@ -107,6 +114,20 @@ def get_runtime_config() -> dict[str, str | int]:
     }
 
 
+@app.get("/redis/health")
+def get_redis_health() -> dict[str, str]:
+    if redis_ping():
+        return {
+            "status": "ok",
+            "redis": "connected",
+        }
+
+    return {
+        "status": "error",
+        "redis": "not_connected",
+    }
+
+
 @app.get("/inventory")
 def get_inventory(limit: int = 20) -> dict[str, Any]:
     safe_limit: int = normalize_limit(limit)
@@ -158,6 +179,49 @@ def get_failed_ssh_ips() -> dict[str, Any]:
     return {
         "unique_ip_count": len(unique_ips),
         "failed_ip_counts": failed_ip_counts,
+    }
+
+
+@app.get("/ssh/failed-ips/cache")
+def get_failed_ssh_ips_cached() -> dict[str, Any]:
+    cache_key = "cache:ssh_failed_ips"
+    cached_data = get_cached_json(cache_key)
+
+    if cached_data is not None:
+        cached_data["cache"] = "hit"
+        return cached_data
+
+    unique_ips, failed_ip_counts = parse_failed_ssh_attempts(AUTH_LOG_PATH)
+
+    data: dict[str, Any] = {
+        "unique_ip_count": len(unique_ips),
+        "failed_ip_counts": failed_ip_counts,
+        "cache": "miss",
+    }
+
+    set_cached_json(cache_key, data, ttl_seconds=300)
+
+    return data
+
+
+@app.post("/redis/suspicious-ips/{ip}")
+def report_suspicious_ip(ip: str) -> dict[str, Any]:
+    created = add_suspicious_ip(ip)
+
+    return {
+        "ip": ip,
+        "stored": True,
+        "new_entry": created,
+    }
+
+
+@app.get("/redis/suspicious-ips")
+def get_suspicious_ips() -> dict[str, Any]:
+    ips = list_suspicious_ips()
+
+    return {
+        "total": len(ips),
+        "items": ips,
     }
 
 

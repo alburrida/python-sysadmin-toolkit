@@ -9,3 +9,5 @@ pytest
 schedule
 fastapi
 uvicorn
+redis
+types-redis
